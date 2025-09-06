@@ -1,0 +1,98 @@
+[  0%] Built target rviz_visual_tools_gui_autogen_timestamp_deps
+[  0%] Built target rviz_visual_tools_remote_control_autogen_timestamp_deps
+[  0%] Built target gtest_main_autogen_timestamp_deps
+[  0%] Built target gtest_autogen_timestamp_deps
+[  2%] Built target gtest_main_autogen
+[  4%] Built target gtest_autogen
+[  6%] Built target rviz_visual_tools_remote_control_autogen
+[  8%] Built target rviz_visual_tools_gui_autogen
+[ 16%] Built target gtest_main
+[ 25%] Built target gtest
+[ 33%] Built target rviz_visual_tools_remote_control
+[ 45%] Built target rviz_visual_tools_gui
+[ 45%] Built target rviz_visual_tools_autogen_timestamp_deps
+[ 47%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[ 47%] Built target rviz_visual_tools_autogen
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/rviz_visual_tools.cpp.o[0m
+[ 52%] [32m[1mLinking CXX shared library librviz_visual_tools.so[0m
+[ 58%] Built target rviz_visual_tools
+[ 58%] Built target rviz_visual_tools_demo_autogen_timestamp_deps
+[ 58%] Built target rviz_visual_tools_imarker_simple_autogen_timestamp_deps
+[ 58%] Built target rviz_visual_tools_rvt_test_autogen_timestamp_deps
+[ 60%] [34m[1mAutomatic MOC for target rviz_visual_tools_demo[0m
+[ 62%] [34m[1mAutomatic MOC for target rviz_visual_tools_rvt_test[0m
+[ 62%] Built target rviz_visual_tools_demo_autogen
+[ 62%] Built target rviz_visual_tools_rvt_test_autogen
+[ 64%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/src/rviz_visual_tools_demo.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/rviz_visual_tools_demo_autogen/mocs_compilation.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/tests/rvt_test.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/rviz_visual_tools_rvt_test_autogen/mocs_compilation.cpp.o[0m
+[ 72%] Built target rviz_visual_tools_imarker_simple_autogen
+[ 75%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/rviz_visual_tools_imarker_simple_autogen/mocs_compilation.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/src/imarker_simple.cpp.o[0m
+[ 79%] [32m[1mLinking CXX shared library librviz_visual_tools_imarker_simple.so[0m
+[ 81%] Built target rviz_visual_tools_imarker_simple
+[ 81%] Built target rviz_visual_tools_imarker_simple_demo_autogen_timestamp_deps
+[ 83%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo[0m
+[ 83%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[ 85%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/src/imarker_simple_demo.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/rviz_visual_tools_imarker_simple_demo_autogen/mocs_compilation.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable rviz_visual_tools_demo[0m
+[ 91%] [32m[1mLinking CXX executable rviz_visual_tools_rvt_test[0m
+[ 93%] Built target rviz_visual_tools_demo
+[ 95%] Built target rviz_visual_tools_rvt_test
+[ 97%] [32m[1mLinking CXX executable rviz_visual_tools_imarker_simple_demo[0m
+[100%] Built target rviz_visual_tools_imarker_simple_demo
+-- Install configuration: ""
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/plugin_description.xml
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/lib/librviz_visual_tools.so
+-- Set non-toolchain portion of runtime path of "/home/fabian/moveit2/install/rviz_visual_tools/lib/librviz_visual_tools.so" to ""
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so
+-- Set non-toolchain portion of runtime path of "/home/fabian/moveit2/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so" to ""
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so
+-- Set non-toolchain portion of runtime path of "/home/fabian/moveit2/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so" to ""
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so
+-- Set non-toolchain portion of runtime path of "/home/fabian/moveit2/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so" to ""
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo
+-- Set non-toolchain portion of runtime path of "/home/fabian/moveit2/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo" to ""
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo
+-- Set non-toolchain portion of runtime path of "/home/fabian/moveit2/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo" to ""
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/include
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/include/rviz_visual_tools
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/include/rviz_visual_tools/key_tool.hpp
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/include/rviz_visual_tools/imarker_simple.hpp
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools_gui.hpp
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/include/rviz_visual_tools/tf_visual_tools.hpp
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/include/rviz_visual_tools/remote_reciever.hpp
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/launch
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo.rviz
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_rviz.launch.py
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_combined.launch.py
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/launch/rvt_test.launch
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.sh
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.dsv
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/ament_index/resource_index/package_run_dependencies/rviz_visual_tools
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/ament_index/resource_index/parent_prefix_path/rviz_visual_tools
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.sh
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.dsv
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.sh
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.dsv
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.bash
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.sh
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.zsh
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.dsv
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/ament_index/resource_index/packages/rviz_visual_tools
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_visual_tools
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport.cmake
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport-noconfig.cmake
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake
+-- Installing: /home/fabian/moveit2/install/rviz_visual_tools/share/rviz_visual_tools/package.xml

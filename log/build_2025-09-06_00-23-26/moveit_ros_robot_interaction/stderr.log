@@ -1,0 +1,63 @@
+[0mmoveit_ros_robot_interaction: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(moveit_robot_interaction PUBLIC
+      interactive_markers::interactive_markers
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_planning::default_request_adapter_parameters
+      moveit_ros_planning::default_response_adapter_parameters
+      moveit_ros_planning::kinematics_parameters
+      moveit_ros_planning::moveit_collision_plugin_loader
+      moveit_ros_planning::moveit_constraint_sampler_manager_loader
+      moveit_ros_planning::moveit_cpp
+      moveit_ros_planning::moveit_kinematics_plugin_loader
+      moveit_ros_planning::moveit_plan_execution
+      moveit_ros_planning::moveit_planning_pipeline
+      moveit_ros_planning::moveit_planning_pipeline_interfaces
+      moveit_ros_planning::moveit_planning_scene_monitor
+      moveit_ros_planning::moveit_rdf_loader
+      moveit_ros_planning::moveit_robot_model_loader
+      moveit_ros_planning::moveit_trajectory_execution_manager
+      moveit_ros_planning::planning_pipeline_parameters
+      moveit_ros_planning::srdf_publisher_node
+      tf2_geometry_msgs::tf2_geometry_msgs
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:35 (ament_target_dependencies)
+
+[0m
+In file included from [01m[K/home/fabian/moveit2/moveit_ros/robot_interaction/include/moveit/robot_interaction/interaction_handler.hpp:45[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/robot_interaction/src/interaction_handler.cpp:39[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/moveit_ros/robot_interaction/include/moveit/robot_interaction/interaction_handler.hpp:45[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/robot_interaction/include/moveit/robot_interaction/robot_interaction.hpp:52[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/robot_interaction/src/robot_interaction.cpp:38[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K

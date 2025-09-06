@@ -1,0 +1,210 @@
+[1.710s] Invoking command in '/home/fabian/moveit2/build/moveit_ros_benchmarks': AMENT_PREFIX_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_configs_utils:/home/fabian/moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_common:/home/fabian/yb_support/ros_odrive/install/odrive_ros2_control:/home/fabian/yb_support/ros_odrive/install/odrive_can:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox:/home/fabian/yb_support/my_msgs/install/my_msgs:/home/fabian/yb_support/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/fabian/yb_support/mecanum_drive_controller/install/mecanum_drive_controller:/home/fabian/ros2_ws/install/ros2_control_demo_example_2:/home/fabian/ros2_ws/install/ros2_control_demo_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_system_tests:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_navigation:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_localization:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_gazebo:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_docking:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_bringup:/home/fabian/yahboom_rosmaster/install/mecanum_drive_controller:/home/fabian/cartesian_controllers/install/cartesian_compliance_controller:/home/fabian/cartesian_controllers/install/cartesian_motion_controller:/home/fabian/cartesian_controllers/install/cartesian_force_controller:/home/fabian/cartesian_controllers/install/cartesian_controller_utilities:/home/fabian/youbot_ws/install/youbot:/home/fabian/yb_support/urdf_parser_py/install/urdfdom_py:/home/fabian/yb_support/twist_stamper/install/twist_stamper:/home/fabian/yb_support/kdl_parser_py/install/kdl_parser_py:/opt/ros/rolling:/home/fabian/cartesian_controllers/install/cartesian_controller_tests:/home/fabian/cartesian_controllers/install/cartesian_controller_simulation:/home/fabian/cartesian_controllers/install/cartesian_controller_handles:/home/fabian/cartesian_controllers/install/cartesian_controller_base:/home/fabian/ros2_control_demos/example_7/install/ros2_control_demo_example_7:/home/fabian/yb_support/unilidar_sdk2/install/unitree_lidar_ros2:/home/fabian/fixslam/install/geometry_msgs:/home/fabian/fixslam/install/std_msgs:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse/lib:/home/fabian/moveit2/install/moveit_ros_planning/lib:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/fabian/moveit2/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/fabian/moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/fabian/moveit2/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/fabian/moveit2/moveit_ros/benchmarks -DCMAKE_INSTALL_PREFIX=/home/fabian/moveit2/install/moveit_ros_benchmarks
+[2.279s] -- The CXX compiler identification is GNU 13.3.0
+[3.756s] -- Detecting CXX compiler ABI info
+[4.729s] -- Detecting CXX compiler ABI info - done
+[4.807s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.808s] -- Detecting CXX compile features
+[4.820s] -- Detecting CXX compile features - done
+[4.821s] -- Found moveit_common: 2.14.0 (/home/fabian/moveit2/install/moveit_common/share/moveit_common/cmake)
+[4.849s] -- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)
+[5.400s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.089s] [0mmoveit_ros_benchmarks: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[6.102s] -- Found rclcpp: 30.1.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[6.689s] -- Found rosidl_generator_c: 5.0.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[6.742s] -- Found rosidl_generator_cpp: 5.0.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[6.799s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.916s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.512s] -- Found rmw_implementation_cmake: 7.9.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[7.534s] -- Found rmw_fastrtps_cpp: 9.4.2 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[8.187s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[8.246s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.069s] -- Found tf2_eigen: 0.44.0 (/opt/ros/rolling/share/tf2_eigen/cmake)
+[9.738s] -- Found moveit_core: 2.14.0 (/home/fabian/moveit2/install/moveit_core/share/moveit_core/cmake)
+[11.054s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[16.628s] -- Found parameter_traits: 0.5.0 (/opt/ros/rolling/share/parameter_traits/cmake)
+[16.692s] -- Found rclcpp_lifecycle: 30.1.0 (/opt/ros/rolling/share/rclcpp_lifecycle/cmake)
+[17.008s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: random 
+[17.661s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[17.662s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[18.931s] -- Found moveit_ros_planning: 2.14.0 (/home/fabian/moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[18.952s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[19.069s] -- Found moveit_ros_warehouse: 2.14.0 (/home/fabian/moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake)
+[19.079s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[19.148s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem 
+[19.149s] [0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[19.149s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[19.149s]   with modern CMake targets instead.  Try replacing this call with:
+[19.149s] 
+[19.149s]     target_link_libraries(moveit_ros_benchmarks PUBLIC
+[19.150s]       moveit_core::moveit_collision_detection
+[19.150s]       moveit_core::moveit_collision_detection_bullet
+[19.150s]       moveit_core::moveit_collision_detection_fcl
+[19.150s]       moveit_core::moveit_collision_distance_field
+[19.150s]       moveit_core::moveit_constraint_samplers
+[19.150s]       moveit_core::moveit_distance_field
+[19.151s]       moveit_core::moveit_dynamics_solver
+[19.151s]       moveit_core::moveit_exceptions
+[19.151s]       moveit_core::moveit_kinematic_constraints
+[19.151s]       moveit_core::moveit_kinematics_base
+[19.151s]       moveit_core::moveit_kinematics_metrics
+[19.152s]       moveit_core::moveit_macros
+[19.152s]       moveit_core::moveit_planning_interface
+[19.152s]       moveit_core::moveit_planning_scene
+[19.152s]       moveit_core::moveit_robot_model
+[19.152s]       moveit_core::moveit_robot_state
+[19.153s]       moveit_core::moveit_robot_trajectory
+[19.153s]       moveit_core::moveit_smoothing_base
+[19.153s]       moveit_core::moveit_test_utils
+[19.153s]       moveit_core::moveit_trajectory_processing
+[19.153s]       moveit_core::moveit_transforms
+[19.153s]       moveit_core::moveit_utils
+[19.154s]       moveit_ros_planning::default_request_adapter_parameters
+[19.154s]       moveit_ros_planning::default_response_adapter_parameters
+[19.154s]       moveit_ros_planning::kinematics_parameters
+[19.154s]       moveit_ros_planning::moveit_collision_plugin_loader
+[19.154s]       moveit_ros_planning::moveit_constraint_sampler_manager_loader
+[19.155s]       moveit_ros_planning::moveit_cpp
+[19.155s]       moveit_ros_planning::moveit_kinematics_plugin_loader
+[19.155s]       moveit_ros_planning::moveit_plan_execution
+[19.155s]       moveit_ros_planning::moveit_planning_pipeline
+[19.155s]       moveit_ros_planning::moveit_planning_pipeline_interfaces
+[19.155s]       moveit_ros_planning::moveit_planning_scene_monitor
+[19.160s]       moveit_ros_planning::moveit_rdf_loader
+[19.160s]       moveit_ros_planning::moveit_robot_model_loader
+[19.160s]       moveit_ros_planning::moveit_trajectory_execution_manager
+[19.160s]       moveit_ros_planning::planning_pipeline_parameters
+[19.160s]       moveit_ros_planning::srdf_publisher_node
+[19.160s]       moveit_ros_warehouse::moveit_warehouse
+[19.160s]       pluginlib::pluginlib
+[19.161s]       rclcpp::rclcpp
+[19.161s]       tf2_eigen::tf2_eigen
+[19.161s]     )
+[19.161s] 
+[19.161s] Call Stack (most recent call first):
+[19.161s]   CMakeLists.txt:37 (ament_target_dependencies)
+[19.161s] 
+[19.161s] [0m
+[19.180s] [0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+[19.181s]   ament_target_dependencies() is deprecated.  Use target_link_libraries()
+[19.181s]   with modern CMake targets instead.  Try replacing this call with:
+[19.181s] 
+[19.181s]     target_link_libraries(moveit_run_benchmark PUBLIC
+[19.181s]       moveit_core::moveit_collision_detection
+[19.181s]       moveit_core::moveit_collision_detection_bullet
+[19.182s]       moveit_core::moveit_collision_detection_fcl
+[19.182s]       moveit_core::moveit_collision_distance_field
+[19.182s]       moveit_core::moveit_constraint_samplers
+[19.182s]       moveit_core::moveit_distance_field
+[19.182s]       moveit_core::moveit_dynamics_solver
+[19.182s]       moveit_core::moveit_exceptions
+[19.183s]       moveit_core::moveit_kinematic_constraints
+[19.183s]       moveit_core::moveit_kinematics_base
+[19.183s]       moveit_core::moveit_kinematics_metrics
+[19.183s]       moveit_core::moveit_macros
+[19.183s]       moveit_core::moveit_planning_interface
+[19.183s]       moveit_core::moveit_planning_scene
+[19.188s]       moveit_core::moveit_robot_model
+[19.188s]       moveit_core::moveit_robot_state
+[19.188s]       moveit_core::moveit_robot_trajectory
+[19.188s]       moveit_core::moveit_smoothing_base
+[19.189s]       moveit_core::moveit_test_utils
+[19.189s]       moveit_core::moveit_trajectory_processing
+[19.189s]       moveit_core::moveit_transforms
+[19.189s]       moveit_core::moveit_utils
+[19.189s]       moveit_ros_planning::default_request_adapter_parameters
+[19.189s]       moveit_ros_planning::default_response_adapter_parameters
+[19.190s]       moveit_ros_planning::kinematics_parameters
+[19.190s]       moveit_ros_planning::moveit_collision_plugin_loader
+[19.190s]       moveit_ros_planning::moveit_constraint_sampler_manager_loader
+[19.190s]       moveit_ros_planning::moveit_cpp
+[19.190s]       moveit_ros_planning::moveit_kinematics_plugin_loader
+[19.191s]       moveit_ros_planning::moveit_plan_execution
+[19.191s]       moveit_ros_planning::moveit_planning_pipeline
+[19.191s]       moveit_ros_planning::moveit_planning_pipeline_interfaces
+[19.191s]       moveit_ros_planning::moveit_planning_scene_monitor
+[19.191s]       moveit_ros_planning::moveit_rdf_loader
+[19.191s]       moveit_ros_planning::moveit_robot_model_loader
+[19.191s]       moveit_ros_planning::moveit_trajectory_execution_manager
+[19.191s]       moveit_ros_planning::planning_pipeline_parameters
+[19.191s]       moveit_ros_planning::srdf_publisher_node
+[19.191s]       moveit_ros_warehouse::moveit_warehouse
+[19.192s]       pluginlib::pluginlib
+[19.196s]       rclcpp::rclcpp
+[19.196s]       tf2_eigen::tf2_eigen
+[19.196s]     )
+[19.197s] 
+[19.197s] Call Stack (most recent call first):
+[19.197s]   CMakeLists.txt:41 (ament_target_dependencies)
+[19.197s] 
+[19.197s] [0m
+[19.213s] -- Configuring done (17.5s)
+[19.345s] -- Generating done (0.1s)
+[19.372s] -- Build files have been written to: /home/fabian/moveit2/build/moveit_ros_benchmarks
+[19.427s] Invoked command in '/home/fabian/moveit2/build/moveit_ros_benchmarks' returned '0': AMENT_PREFIX_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_configs_utils:/home/fabian/moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_common:/home/fabian/yb_support/ros_odrive/install/odrive_ros2_control:/home/fabian/yb_support/ros_odrive/install/odrive_can:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox:/home/fabian/yb_support/my_msgs/install/my_msgs:/home/fabian/yb_support/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/fabian/yb_support/mecanum_drive_controller/install/mecanum_drive_controller:/home/fabian/ros2_ws/install/ros2_control_demo_example_2:/home/fabian/ros2_ws/install/ros2_control_demo_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_system_tests:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_navigation:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_localization:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_gazebo:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_docking:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_bringup:/home/fabian/yahboom_rosmaster/install/mecanum_drive_controller:/home/fabian/cartesian_controllers/install/cartesian_compliance_controller:/home/fabian/cartesian_controllers/install/cartesian_motion_controller:/home/fabian/cartesian_controllers/install/cartesian_force_controller:/home/fabian/cartesian_controllers/install/cartesian_controller_utilities:/home/fabian/youbot_ws/install/youbot:/home/fabian/yb_support/urdf_parser_py/install/urdfdom_py:/home/fabian/yb_support/twist_stamper/install/twist_stamper:/home/fabian/yb_support/kdl_parser_py/install/kdl_parser_py:/opt/ros/rolling:/home/fabian/cartesian_controllers/install/cartesian_controller_tests:/home/fabian/cartesian_controllers/install/cartesian_controller_simulation:/home/fabian/cartesian_controllers/install/cartesian_controller_handles:/home/fabian/cartesian_controllers/install/cartesian_controller_base:/home/fabian/ros2_control_demos/example_7/install/ros2_control_demo_example_7:/home/fabian/yb_support/unilidar_sdk2/install/unitree_lidar_ros2:/home/fabian/fixslam/install/geometry_msgs:/home/fabian/fixslam/install/std_msgs:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse/lib:/home/fabian/moveit2/install/moveit_ros_planning/lib:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/fabian/moveit2/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/fabian/moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/fabian/moveit2/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/fabian/moveit2/moveit_ros/benchmarks -DCMAKE_INSTALL_PREFIX=/home/fabian/moveit2/install/moveit_ros_benchmarks
+[19.429s] Invoking command in '/home/fabian/moveit2/build/moveit_ros_benchmarks': AMENT_PREFIX_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_configs_utils:/home/fabian/moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_common:/home/fabian/yb_support/ros_odrive/install/odrive_ros2_control:/home/fabian/yb_support/ros_odrive/install/odrive_can:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox:/home/fabian/yb_support/my_msgs/install/my_msgs:/home/fabian/yb_support/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/fabian/yb_support/mecanum_drive_controller/install/mecanum_drive_controller:/home/fabian/ros2_ws/install/ros2_control_demo_example_2:/home/fabian/ros2_ws/install/ros2_control_demo_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_system_tests:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_navigation:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_localization:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_gazebo:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_docking:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_bringup:/home/fabian/yahboom_rosmaster/install/mecanum_drive_controller:/home/fabian/cartesian_controllers/install/cartesian_compliance_controller:/home/fabian/cartesian_controllers/install/cartesian_motion_controller:/home/fabian/cartesian_controllers/install/cartesian_force_controller:/home/fabian/cartesian_controllers/install/cartesian_controller_utilities:/home/fabian/youbot_ws/install/youbot:/home/fabian/yb_support/urdf_parser_py/install/urdfdom_py:/home/fabian/yb_support/twist_stamper/install/twist_stamper:/home/fabian/yb_support/kdl_parser_py/install/kdl_parser_py:/opt/ros/rolling:/home/fabian/cartesian_controllers/install/cartesian_controller_tests:/home/fabian/cartesian_controllers/install/cartesian_controller_simulation:/home/fabian/cartesian_controllers/install/cartesian_controller_handles:/home/fabian/cartesian_controllers/install/cartesian_controller_base:/home/fabian/ros2_control_demos/example_7/install/ros2_control_demo_example_7:/home/fabian/yb_support/unilidar_sdk2/install/unitree_lidar_ros2:/home/fabian/fixslam/install/geometry_msgs:/home/fabian/fixslam/install/std_msgs:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse/lib:/home/fabian/moveit2/install/moveit_ros_planning/lib:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/fabian/moveit2/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/fabian/moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/fabian/moveit2/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fabian/moveit2/build/moveit_ros_benchmarks -- -j7 -l7
+[19.772s] [ 20%] [32mBuilding CXX object CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkExecutor.cpp.o[0m
+[19.777s] [ 40%] [32mBuilding CXX object CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o[0m
+[21.768s] In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+[21.768s]                  from [01m[K/home/fabian/moveit2/moveit_ros/benchmarks/include/moveit/benchmarks/BenchmarkExecutor.hpp:41[m[K,
+[21.768s]                  from [01m[K/home/fabian/moveit2/moveit_ros/benchmarks/src/BenchmarkExecutor.cpp:37[m[K:
+[21.769s] [01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[21.769s]    40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+[21.769s]       |    [01;35m[K^~~~~~~[m[K
+[21.825s] In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[21.825s] [01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[21.825s]    40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+[21.825s]       |    [01;35m[K^~~~~~~[m[K
+[77.632s] [ 60%] [32m[1mLinking CXX shared library libmoveit_ros_benchmarks.so[0m
+[78.890s] [ 60%] Built target moveit_ros_benchmarks
+[79.067s] [ 80%] [32mBuilding CXX object CMakeFiles/moveit_run_benchmark.dir/src/RunBenchmark.cpp.o[0m
+[80.769s] In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+[80.769s]                  from [01m[K/home/fabian/moveit2/moveit_ros/benchmarks/include/moveit/benchmarks/BenchmarkExecutor.hpp:41[m[K,
+[80.769s]                  from [01m[K/home/fabian/moveit2/moveit_ros/benchmarks/src/RunBenchmark.cpp:40[m[K:
+[80.769s] [01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[80.769s]    40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+[80.769s]       |    [01;35m[K^~~~~~~[m[K
+[80.866s] In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[80.867s] [01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[80.867s]    40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+[80.867s]       |    [01;35m[K^~~~~~~[m[K
+[115.490s] [100%] [32m[1mLinking CXX executable moveit_run_benchmark[0m
+[117.032s] [100%] Built target moveit_run_benchmark
+[117.107s] Invoked command in '/home/fabian/moveit2/build/moveit_ros_benchmarks' returned '0': AMENT_PREFIX_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_configs_utils:/home/fabian/moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_common:/home/fabian/yb_support/ros_odrive/install/odrive_ros2_control:/home/fabian/yb_support/ros_odrive/install/odrive_can:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox:/home/fabian/yb_support/my_msgs/install/my_msgs:/home/fabian/yb_support/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/fabian/yb_support/mecanum_drive_controller/install/mecanum_drive_controller:/home/fabian/ros2_ws/install/ros2_control_demo_example_2:/home/fabian/ros2_ws/install/ros2_control_demo_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_system_tests:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_navigation:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_localization:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_gazebo:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_docking:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_bringup:/home/fabian/yahboom_rosmaster/install/mecanum_drive_controller:/home/fabian/cartesian_controllers/install/cartesian_compliance_controller:/home/fabian/cartesian_controllers/install/cartesian_motion_controller:/home/fabian/cartesian_controllers/install/cartesian_force_controller:/home/fabian/cartesian_controllers/install/cartesian_controller_utilities:/home/fabian/youbot_ws/install/youbot:/home/fabian/yb_support/urdf_parser_py/install/urdfdom_py:/home/fabian/yb_support/twist_stamper/install/twist_stamper:/home/fabian/yb_support/kdl_parser_py/install/kdl_parser_py:/opt/ros/rolling:/home/fabian/cartesian_controllers/install/cartesian_controller_tests:/home/fabian/cartesian_controllers/install/cartesian_controller_simulation:/home/fabian/cartesian_controllers/install/cartesian_controller_handles:/home/fabian/cartesian_controllers/install/cartesian_controller_base:/home/fabian/ros2_control_demos/example_7/install/ros2_control_demo_example_7:/home/fabian/yb_support/unilidar_sdk2/install/unitree_lidar_ros2:/home/fabian/fixslam/install/geometry_msgs:/home/fabian/fixslam/install/std_msgs:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse/lib:/home/fabian/moveit2/install/moveit_ros_planning/lib:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/fabian/moveit2/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/fabian/moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/fabian/moveit2/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fabian/moveit2/build/moveit_ros_benchmarks -- -j7 -l7
+[117.113s] Invoking command in '/home/fabian/moveit2/build/moveit_ros_benchmarks': AMENT_PREFIX_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_configs_utils:/home/fabian/moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_common:/home/fabian/yb_support/ros_odrive/install/odrive_ros2_control:/home/fabian/yb_support/ros_odrive/install/odrive_can:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox:/home/fabian/yb_support/my_msgs/install/my_msgs:/home/fabian/yb_support/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/fabian/yb_support/mecanum_drive_controller/install/mecanum_drive_controller:/home/fabian/ros2_ws/install/ros2_control_demo_example_2:/home/fabian/ros2_ws/install/ros2_control_demo_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_system_tests:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_navigation:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_localization:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_gazebo:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_docking:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_bringup:/home/fabian/yahboom_rosmaster/install/mecanum_drive_controller:/home/fabian/cartesian_controllers/install/cartesian_compliance_controller:/home/fabian/cartesian_controllers/install/cartesian_motion_controller:/home/fabian/cartesian_controllers/install/cartesian_force_controller:/home/fabian/cartesian_controllers/install/cartesian_controller_utilities:/home/fabian/youbot_ws/install/youbot:/home/fabian/yb_support/urdf_parser_py/install/urdfdom_py:/home/fabian/yb_support/twist_stamper/install/twist_stamper:/home/fabian/yb_support/kdl_parser_py/install/kdl_parser_py:/opt/ros/rolling:/home/fabian/cartesian_controllers/install/cartesian_controller_tests:/home/fabian/cartesian_controllers/install/cartesian_controller_simulation:/home/fabian/cartesian_controllers/install/cartesian_controller_handles:/home/fabian/cartesian_controllers/install/cartesian_controller_base:/home/fabian/ros2_control_demos/example_7/install/ros2_control_demo_example_7:/home/fabian/yb_support/unilidar_sdk2/install/unitree_lidar_ros2:/home/fabian/fixslam/install/geometry_msgs:/home/fabian/fixslam/install/std_msgs:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse/lib:/home/fabian/moveit2/install/moveit_ros_planning/lib:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/fabian/moveit2/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/fabian/moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/fabian/moveit2/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fabian/moveit2/build/moveit_ros_benchmarks
+[117.180s] -- Install configuration: "Release"
+[117.182s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so.2.14.0
+[117.190s] -- Set non-toolchain portion of runtime path of "/home/fabian/moveit2/install/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so.2.14.0" to ""
+[117.190s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so
+[117.200s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/library_path.sh
+[117.200s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/library_path.dsv
+[117.201s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_run_benchmark
+[117.204s] -- Set non-toolchain portion of runtime path of "/home/fabian/moveit2/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_run_benchmark" to ""
+[117.204s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/include/moveit_ros_benchmarks
+[117.206s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/include/moveit_ros_benchmarks/moveit
+[117.207s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/include/moveit_ros_benchmarks/moveit/benchmarks
+[117.207s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/include/moveit_ros_benchmarks/moveit/benchmarks/BenchmarkExecutor.hpp
+[117.216s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/include/moveit_ros_benchmarks/moveit/benchmarks/BenchmarkOptions.hpp
+[117.216s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/include/moveit_ros_benchmarks/moveit/benchmarks/BenchmarkExecutor.h
+[117.216s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/include/moveit_ros_benchmarks/moveit/benchmarks/BenchmarkOptions.h
+[117.217s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_benchmark_statistics.py
+[117.217s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/ament_index/resource_index/package_run_dependencies/moveit_ros_benchmarks
+[117.222s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/ament_index/resource_index/parent_prefix_path/moveit_ros_benchmarks
+[117.222s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/ament_prefix_path.sh
+[117.222s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/ament_prefix_path.dsv
+[117.223s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/path.sh
+[117.223s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/path.dsv
+[117.228s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.bash
+[117.228s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.sh
+[117.229s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.zsh
+[117.229s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.dsv
+[117.230s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/package.dsv
+[117.232s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/ament_index/resource_index/packages/moveit_ros_benchmarks
+[117.232s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/moveit_ros_benchmarksTargetsExport.cmake
+[117.237s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/moveit_ros_benchmarksTargetsExport-release.cmake
+[117.237s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/ConfigExtras.cmake
+[117.237s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/ament_cmake_export_targets-extras.cmake
+[117.238s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/ament_cmake_export_dependencies-extras.cmake
+[117.238s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/moveit_ros_benchmarksConfig.cmake
+[117.238s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/moveit_ros_benchmarksConfig-version.cmake
+[117.244s] -- Installing: /home/fabian/moveit2/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/package.xml
+[117.249s] Invoked command in '/home/fabian/moveit2/build/moveit_ros_benchmarks' returned '0': AMENT_PREFIX_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_configs_utils:/home/fabian/moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_common:/home/fabian/yb_support/ros_odrive/install/odrive_ros2_control:/home/fabian/yb_support/ros_odrive/install/odrive_can:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox:/home/fabian/yb_support/my_msgs/install/my_msgs:/home/fabian/yb_support/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/fabian/yb_support/mecanum_drive_controller/install/mecanum_drive_controller:/home/fabian/ros2_ws/install/ros2_control_demo_example_2:/home/fabian/ros2_ws/install/ros2_control_demo_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_system_tests:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_navigation:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_localization:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_gazebo:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_docking:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_bringup:/home/fabian/yahboom_rosmaster/install/mecanum_drive_controller:/home/fabian/cartesian_controllers/install/cartesian_compliance_controller:/home/fabian/cartesian_controllers/install/cartesian_motion_controller:/home/fabian/cartesian_controllers/install/cartesian_force_controller:/home/fabian/cartesian_controllers/install/cartesian_controller_utilities:/home/fabian/youbot_ws/install/youbot:/home/fabian/yb_support/urdf_parser_py/install/urdfdom_py:/home/fabian/yb_support/twist_stamper/install/twist_stamper:/home/fabian/yb_support/kdl_parser_py/install/kdl_parser_py:/opt/ros/rolling:/home/fabian/cartesian_controllers/install/cartesian_controller_tests:/home/fabian/cartesian_controllers/install/cartesian_controller_simulation:/home/fabian/cartesian_controllers/install/cartesian_controller_handles:/home/fabian/cartesian_controllers/install/cartesian_controller_base:/home/fabian/ros2_control_demos/example_7/install/ros2_control_demo_example_7:/home/fabian/yb_support/unilidar_sdk2/install/unitree_lidar_ros2:/home/fabian/fixslam/install/geometry_msgs:/home/fabian/fixslam/install/std_msgs:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fabian/moveit2/install/moveit_ros_warehouse/lib:/home/fabian/moveit2/install/moveit_ros_planning/lib:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/fabian/moveit2/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/fabian/moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/fabian/moveit2/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fabian/moveit2/build/moveit_ros_benchmarks

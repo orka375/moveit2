@@ -1,0 +1,357 @@
+[0mmoveit_ros_perception: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(moveit_lazy_free_space_updater PUBLIC
+      ${sensor_msgs_TARGETS}
+      moveit_ros_occupancy_map_monitor::moveit_ros_occupancy_map_monitor
+      rclcpp::rclcpp
+      sensor_msgs::sensor_msgs_library
+    )
+
+Call Stack (most recent call first):
+  lazy_free_space_updater/CMakeLists.txt:13 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(moveit_point_containment_filter PUBLIC
+      ${sensor_msgs_TARGETS}
+      geometric_shapes::geometric_shapes
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      rclcpp::rclcpp
+      sensor_msgs::sensor_msgs_library
+    )
+
+Call Stack (most recent call first):
+  point_containment_filter/CMakeLists.txt:9 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(moveit_pointcloud_octomap_updater_core PUBLIC
+      ${sensor_msgs_TARGETS}
+      message_filters::message_filters
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_occupancy_map_monitor::moveit_ros_occupancy_map_monitor
+      rclcpp::rclcpp
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  pointcloud_octomap_updater/CMakeLists.txt:5 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(moveit_pointcloud_octomap_updater PUBLIC
+      ${sensor_msgs_TARGETS}
+      message_filters::message_filters
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_occupancy_map_monitor::moveit_ros_occupancy_map_monitor
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  pointcloud_octomap_updater/CMakeLists.txt:27 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(moveit_mesh_filter PUBLIC
+      geometric_shapes::geometric_shapes
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      rclcpp::rclcpp
+    )
+
+Call Stack (most recent call first):
+  mesh_filter/CMakeLists.txt:11 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(moveit_depth_image_octomap_updater_core PUBLIC
+      ${sensor_msgs_TARGETS}
+      geometric_shapes::geometric_shapes
+      image_transport::image_transport
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_occupancy_map_monitor::moveit_ros_occupancy_map_monitor
+      rclcpp::rclcpp
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_geometry_msgs::tf2_geometry_msgs
+    )
+
+Call Stack (most recent call first):
+  depth_image_octomap_updater/CMakeLists.txt:5 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(moveit_depth_image_octomap_updater PUBLIC
+      ${sensor_msgs_TARGETS}
+      geometric_shapes::geometric_shapes
+      image_transport::image_transport
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_occupancy_map_monitor::moveit_ros_occupancy_map_monitor
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      sensor_msgs::sensor_msgs_library
+      tf2::tf2
+      tf2_geometry_msgs::tf2_geometry_msgs
+    )
+
+Call Stack (most recent call first):
+  depth_image_octomap_updater/CMakeLists.txt:21 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(moveit_semantic_world PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${moveit_msgs_TARGETS}
+      ${object_recognition_msgs_TARGETS}
+      ${visualization_msgs_TARGETS}
+      geometric_shapes::geometric_shapes
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      rclcpp::rclcpp
+      tf2_eigen::tf2_eigen
+    )
+
+Call Stack (most recent call first):
+  semantic_world/CMakeLists.txt:4 (ament_target_dependencies)
+
+[0m
+In file included from [01m[K/home/fabian/moveit2/moveit_ros/perception/depth_image_octomap_updater/include/moveit/depth_image_octomap_updater/depth_image_octomap_updater.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/perception/depth_image_octomap_updater/src/depth_image_octomap_updater.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+[01m[K/home/fabian/moveit2/moveit_ros/perception/depth_image_octomap_updater/src/depth_image_octomap_updater.cpp:[m[K In member function ‘[01m[Kvirtual void occupancy_map_monitor::DepthImageOctomapUpdater::[01;32m[Kstart[m[K()[m[K’:
+[01m[K/home/fabian/moveit2/moveit_ros/perception/depth_image_octomap_updater/src/depth_image_octomap_updater.cpp:161:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kimage_transport::CameraSubscriber image_transport::[01;32m[Kcreate_camera_subscription[m[K(rclcpp::Node*, const std::string&, const CameraSubscriber::Callback&, const std::string&, rmw_qos_profile_t)[m[K’ is deprecated: Use create_camera_subscription(..., rclcpp::QoS, ...) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  161 |   sub_depth_image_ = [01;35m[Kimage_transport::create_camera_subscription([m[K
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  162 | [01;35m[K      node_.get(), image_topic_,[m[K
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                 
+  163 | [01;35m[K      [this](const sensor_msgs::msg::Image::ConstSharedPtr& depth_msg,[m[K
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  164 | [01;35m[K             const sensor_msgs::msg::CameraInfo::ConstSharedPtr& info_msg) {[m[K
+      |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  165 | [01;35m[K        return depthImageCallback(depth_msg, info_msg);[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K          
+  166 | [01;35m[K      },[m[K
+      |       [01;35m[K~~[m[K                                                         
+  167 | [01;35m[K      "raw", rmw_qos_profile_sensor_data)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                        
+In file included from [01m[K/home/fabian/moveit2/moveit_ros/perception/depth_image_octomap_updater/include/moveit/depth_image_octomap_updater/depth_image_octomap_updater.hpp:45[m[K:
+[01m[K/opt/ros/rolling/include/image_transport/image_transport/image_transport.hpp:121:18:[m[K [01;36m[Knote: [m[Kdeclared here
+  121 | CameraSubscriber [01;36m[Kcreate_camera_subscription[m[K(
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/moveit_ros/perception/pointcloud_octomap_updater/include/moveit/pointcloud_octomap_updater/pointcloud_octomap_updater.hpp:42[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/perception/pointcloud_octomap_updater/src/pointcloud_octomap_updater.cpp:38[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/moveit_ros/perception/pointcloud_octomap_updater/include/moveit/pointcloud_octomap_updater/pointcloud_octomap_updater.hpp:43[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/message_filter.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning MESSAGE_FILTER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K MESSAGE_FILTER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor/include/moveit_ros_occupancy_map_monitor/moveit/occupancy_map_monitor/occupancy_map_monitor.hpp:45[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/perception/pointcloud_octomap_updater/src/pointcloud_octomap_updater.cpp:39[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/moveit_ros/perception/pointcloud_octomap_updater/src/pointcloud_octomap_updater.cpp:53[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/create_timer_interface.h:38:4:[m[K [01;35m[Kwarning: [m[K#warning CREATE_TIMER_INTERFACE_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   38 |   #[01;35m[Kwarning[m[K CREATE_TIMER_INTERFACE_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/moveit_ros/perception/pointcloud_octomap_updater/src/pointcloud_octomap_updater.cpp:54[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/create_timer_ros.h:38:4:[m[K [01;35m[Kwarning: [m[K#warning CREATE_TIMER_ROS_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   38 |   #[01;35m[Kwarning[m[K CREATE_TIMER_ROS_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/moveit_ros/perception/pointcloud_octomap_updater/include/moveit/pointcloud_octomap_updater/pointcloud_octomap_updater.hpp:42[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/perception/pointcloud_octomap_updater/src/plugin_init.cpp:38[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/moveit_ros/perception/depth_image_octomap_updater/include/moveit/depth_image_octomap_updater/depth_image_octomap_updater.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/perception/depth_image_octomap_updater/src/updater_plugin.cpp:38[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/moveit_ros/perception/pointcloud_octomap_updater/include/moveit/pointcloud_octomap_updater/pointcloud_octomap_updater.hpp:43[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/message_filter.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning MESSAGE_FILTER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K MESSAGE_FILTER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K

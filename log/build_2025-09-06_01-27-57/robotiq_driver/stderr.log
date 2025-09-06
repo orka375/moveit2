@@ -1,0 +1,38 @@
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(robotiq_driver PUBLIC
+      hardware_interface::hardware_interface
+      hardware_interface::mock_components
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      rclcpp_lifecycle::rclcpp_lifecycle
+      serial::serial
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:64 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(test_robotiq_gripper_hardware_interface PUBLIC
+      
+    )
+
+Call Stack (most recent call first):
+  tests/CMakeLists.txt:23 (ament_target_dependencies)
+
+[0m
+[01m[K/home/fabian/moveit2/ros2_robotiq_gripper/robotiq_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn robotiq_driver::RobotiqGripperHardwareInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/fabian/moveit2/ros2_robotiq_gripper/robotiq_driver/src/hardware_interface.cpp:79:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::SystemInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   79 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K != CallbackReturn::SUCCESS)
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/ros2_robotiq_gripper/robotiq_driver/include/robotiq_driver/hardware_interface.hpp:44[m[K,
+                 from [01m[K/home/fabian/moveit2/ros2_robotiq_gripper/robotiq_driver/src/hardware_interface.cpp:36[m[K:
+[01m[K/opt/ros/rolling/include/hardware_interface/hardware_interface/system_interface.hpp:226:26:[m[K [01;36m[Knote: [m[Kdeclared here
+  226 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info)
+      |                          [01;36m[K^~~~~~~[m[K

@@ -1,0 +1,21 @@
+-- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/fabian/moveit2/build/moveit_runtime
+-- Install configuration: ""
+-- Installing: /home/fabian/moveit2/install/moveit_runtime/share/ament_index/resource_index/package_run_dependencies/moveit_runtime
+-- Installing: /home/fabian/moveit2/install/moveit_runtime/share/ament_index/resource_index/parent_prefix_path/moveit_runtime
+-- Installing: /home/fabian/moveit2/install/moveit_runtime/share/moveit_runtime/environment/ament_prefix_path.sh
+-- Installing: /home/fabian/moveit2/install/moveit_runtime/share/moveit_runtime/environment/ament_prefix_path.dsv
+-- Installing: /home/fabian/moveit2/install/moveit_runtime/share/moveit_runtime/environment/path.sh
+-- Installing: /home/fabian/moveit2/install/moveit_runtime/share/moveit_runtime/environment/path.dsv
+-- Installing: /home/fabian/moveit2/install/moveit_runtime/share/moveit_runtime/local_setup.bash
+-- Installing: /home/fabian/moveit2/install/moveit_runtime/share/moveit_runtime/local_setup.sh
+-- Installing: /home/fabian/moveit2/install/moveit_runtime/share/moveit_runtime/local_setup.zsh
+-- Installing: /home/fabian/moveit2/install/moveit_runtime/share/moveit_runtime/local_setup.dsv
+-- Installing: /home/fabian/moveit2/install/moveit_runtime/share/moveit_runtime/package.dsv
+-- Installing: /home/fabian/moveit2/install/moveit_runtime/share/ament_index/resource_index/packages/moveit_runtime
+-- Installing: /home/fabian/moveit2/install/moveit_runtime/share/moveit_runtime/cmake/moveit_runtimeConfig.cmake
+-- Installing: /home/fabian/moveit2/install/moveit_runtime/share/moveit_runtime/cmake/moveit_runtimeConfig-version.cmake
+-- Installing: /home/fabian/moveit2/install/moveit_runtime/share/moveit_runtime/package.xml

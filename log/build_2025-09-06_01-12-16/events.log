@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.000282] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000338] (-) JobUnselected: {'identifier': 'dual_arm_panda_moveit_config'}
+[0.000358] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000377] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000416] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000433] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000445] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000484] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000525] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000565] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.000606] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000647] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000687] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000728] (-) JobUnselected: {'identifier': 'moveit_planners_stomp'}
+[0.000768] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000809] (-) JobUnselected: {'identifier': 'moveit_py'}
+[0.000849] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000889] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000930] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000977] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.001018] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.001058] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.001098] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.001114] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.001126] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.001164] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.001220] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.001260] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.001275] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.001385] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.001433] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.001450] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.001467] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.001506] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.001521] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.001533] (-) JobUnselected: {'identifier': 'moveit_ros_tests'}
+[0.001571] (-) JobUnselected: {'identifier': 'moveit_ros_trajectory_cache'}
+[0.001612] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.001627] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.001639] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.001653] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.001691] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.001706] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.001718] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.001830] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.001879] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.001921] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.001962] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.002002] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.002043] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.002083] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.002124] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.002164] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.002220] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.002263] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.002303] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.002489] (moveit_visual_tools) JobQueued: {'identifier': 'moveit_visual_tools', 'dependencies': OrderedDict({'moveit_common': '/home/fabian/moveit2/install/moveit_common', 'moveit_configs_utils': '/home/fabian/moveit2/install/moveit_configs_utils', 'moveit_msgs': '/home/fabian/moveit2/install/moveit_msgs', 'moveit_resources_panda_description': '/home/fabian/moveit2/install/moveit_resources_panda_description', 'moveit_resources_pr2_description': '/home/fabian/moveit2/install/moveit_resources_pr2_description', 'moveit_resources_panda_moveit_config': '/home/fabian/moveit2/install/moveit_resources_panda_moveit_config', 'moveit_core': '/home/fabian/moveit2/install/moveit_core', 'moveit_ros_occupancy_map_monitor': '/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor', 'moveit_ros_planning': '/home/fabian/moveit2/install/moveit_ros_planning'})}
+[0.002561] (moveit_visual_tools) JobStarted: {'identifier': 'moveit_visual_tools'}
+[0.099035] (-) TimerEvent: {}
+[0.199347] (-) TimerEvent: {}
+[0.299712] (-) TimerEvent: {}
+[0.400018] (-) TimerEvent: {}
+[0.500808] (-) TimerEvent: {}
+[0.601183] (-) TimerEvent: {}
+[0.701530] (-) TimerEvent: {}
+[0.801969] (-) TimerEvent: {}
+[0.902285] (-) TimerEvent: {}
+[1.004295] (-) TimerEvent: {}
+[1.104627] (-) TimerEvent: {}
+[1.205014] (-) TimerEvent: {}
+[1.305435] (-) TimerEvent: {}
+[1.379982] (moveit_visual_tools) JobProgress: {'identifier': 'moveit_visual_tools', 'progress': 'cmake'}
+[1.380628] (moveit_visual_tools) Command: {'cmd': ['/usr/bin/cmake', '/home/fabian/moveit2/moveit_visual_tools', '-DCMAKE_INSTALL_PREFIX=/home/fabian/moveit2/install/moveit_visual_tools'], 'cwd': '/home/fabian/moveit2/build/moveit_visual_tools', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/rolling/share', 'USER': 'fabian', 'GZ_CONFIG_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/share/gz:/opt/ros/rolling/opt/sdformat_vendor/share/gz:/opt/ros/rolling/opt/gz_gui_vendor/share/gz:/opt/ros/rolling/opt/gz_transport_vendor/share/gz:/opt/ros/rolling/opt/gz_rendering_vendor/share/gz:/opt/ros/rolling/opt/gz_plugin_vendor/share/gz:/opt/ros/rolling/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/rolling/opt/gz_msgs_vendor/share/gz:/opt/ros/rolling/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/fabian/cartesian_controllers/install/cartesian_controller_tests/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fabian/moveit2/install/moveit_ros_planning/lib:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/fabian/moveit2/install/moveit_core/lib:/home/fabian/moveit2/install/moveit_msgs/lib:/home/fabian/moveit2/install/rviz_marker_tools/lib:/home/fabian/moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/fabian/moveit2/install/pilz_industrial_motion_planner/lib:/home/fabian/moveit2/install/moveit_ros_control_interface/lib:/home/fabian/moveit2/install/moveit_simple_controller_manager/lib:/home/fabian/moveit2/install/moveit_setup_assistant/lib:/home/fabian/moveit2/install/moveit_setup_srdf_plugins/lib:/home/fabian/moveit2/install/moveit_setup_core_plugins/lib:/home/fabian/moveit2/install/moveit_setup_controllers/lib:/home/fabian/moveit2/install/moveit_setup_app_plugins/lib:/home/fabian/moveit2/install/moveit_setup_framework/lib:/home/fabian/moveit2/install/moveit_servo/lib:/home/fabian/moveit2/install/moveit_ros_trajectory_cache/lib:/home/fabian/moveit2/install/moveit_ros_visualization/lib:/home/fabian/moveit2/install/moveit_py/lib:/home/fabian/moveit2/install/moveit_hybrid_planning/lib:/home/fabian/moveit2/install/moveit_ros_planning_interface/lib:/home/fabian/moveit2/install/moveit_ros_benchmarks/lib:/home/fabian/moveit2/install/moveit_ros_warehouse/lib:/home/fabian/moveit2/install/moveit_ros_robot_interaction/lib:/home/fabian/moveit2/install/moveit_ros_perception/lib:/home/fabian/moveit2/install/moveit_ros_move_group/lib:/home/fabian/moveit2/install/moveit_planners_ompl/lib:/home/fabian/moveit2/install/moveit_kinematics/lib:/home/fabian/moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/fabian/moveit2/install/moveit_planners_stomp/lib:/home/fabian/moveit2/install/moveit_planners_chomp/lib:/home/fabian/moveit2/install/chomp_motion_planner/lib:/home/fabian/yb_support/ros_odrive/install/odrive_ros2_control/lib:/home/fabian/yb_support/ros_odrive/install/odrive_can/lib:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox/lib:/home/fabian/yb_support/my_msgs/install/my_msgs/lib:/home/fabian/yb_support/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib:/home/fabian/yb_support/mecanum_drive_controller/install/mecanum_drive_controller/lib:/home/fabian/ros2_ws/install/ros2_control_demo_example_2/lib:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs/lib:/home/fabian/yahboom_rosmaster/install/mecanum_drive_controller/lib:/home/fabian/cartesian_controllers/install/cartesian_compliance_controller/lib:/home/fabian/cartesian_controllers/install/cartesian_motion_controller/lib:/home/fabian/cartesian_controllers/install/cartesian_force_controller/lib:/home/fabian/cartesian_controllers/install/cartesian_controller_simulation/lib:/home/fabian/cartesian_controllers/install/cartesian_controller_handles/lib:/home/fabian/cartesian_controllers/install/cartesian_controller_base/lib:/home/fabian/ros2_control_demos/example_7/install/ros2_control_demo_example_7/lib:/home/fabian/fixslam/install/geometry_msgs/lib:/home/fabian/fixslam/install/std_msgs/lib:/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_sim_vendor/lib:/opt/ros/rolling/opt/gz_sensors_vendor/lib:/opt/ros/rolling/opt/gz_physics_vendor/lib:/opt/ros/rolling/opt/sdformat_vendor/lib:/opt/ros/rolling/opt/gz_gui_vendor/lib:/opt/ros/rolling/opt/gz_transport_vendor/lib:/opt/ros/rolling/opt/gz_rendering_vendor/lib:/opt/ros/rolling/opt/gz_plugin_vendor/lib:/opt/ros/rolling/opt/gz_fuel_tools_vendor/lib:/opt/ros/rolling/opt/gz_msgs_vendor/lib:/opt/ros/rolling/opt/gz_common_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_tools_vendor/lib:/opt/ros/rolling/opt/gz_ogre_next_vendor/lib:/opt/ros/rolling/opt/gz_dartsim_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/fabian', 'OLDPWD': '/home/fabian', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fabian/moveit2/install:/home/fabian/yb_support/my_msgs/install:/home/fabian/youbot_ws/install:/home/fabian/ros2_ws/install:/home/fabian/yahboom_rosmaster/install:/home/fabian/cartesian_controllers/install:/home/fabian/ros2_control_demos/example_7/install:/home/fabian/yb_support/urdf_parser_py/install:/home/fabian/yb_support/kdl_parser_py/install:/home/fabian/yb_support/slam_toolbox/install:/home/fabian/yb_support/twist_stamper/install:/home/fabian/yb_support/pointcloud_to_laserscan/install:/home/fabian/yb_support/mecanum_drive_controller/install:/home/fabian/yb_support/unilidar_sdk2/install:/home/fabian/yb_support/ros_odrive/install:/home/fabian/fixslam/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'fabian', 'NAME': 'DESKTOP-579AJL8', 'WSL_INTEROP': '/run/WSL/540_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/fabian/cartesian_controllers/install/cartesian_controller_tests/lib/x86_64-linux-gnu/pkgconfig:/home/fabian/cartesian_controllers/install/cartesian_controller_tests/lib/pkgconfig', 'TERM': 'xterm-256color', 'PATH': '/home/fabian/moveit2/install/moveit_core/bin:/opt/ros/rolling/opt/gz_msgs_vendor/bin:/opt/ros/rolling/opt/gz_tools_vendor/bin:/opt/ros/rolling/opt/gz_ogre_next_vendor/bin:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Beckhoff/TwinCAT/Common64/:/mnt/c/Program Files (x86)/Beckhoff/TwinCAT/Common32/:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/ProgramData/Beckhoff/TcPkg/:/mnt/c/Program Files (x86)/AOMEI/AOMEI Backupper/7.4.1:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/MinGW/bin:/mnt/c/MinGW/mingw32/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ros/jazzy/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/e/xmllint/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files (x86)/Windows Kits/10:/mnt/c/Users/fabia/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/fabian/moveit2/install/moveit_configs_utils:/home/fabian/moveit2/install/rviz_marker_tools:/home/fabian/moveit2/install/moveit_resources:/home/fabian/moveit2/install/moveit_resources_pr2_description:/home/fabian/moveit2/install/moveit_resources_panda_moveit_config:/home/fabian/moveit2/install/dual_arm_panda_moveit_config:/home/fabian/moveit2/install/moveit_resources_panda_description:/home/fabian/moveit2/install/moveit_resources_fanuc_moveit_config:/home/fabian/moveit2/install/moveit_resources_fanuc_description:/home/fabian/moveit2/install/moveit_msgs:/home/fabian/moveit2/install/pilz_industrial_motion_planner_testutils:/home/fabian/moveit2/install/moveit_runtime:/home/fabian/moveit2/install/moveit:/home/fabian/moveit2/install/moveit_planners:/home/fabian/moveit2/install/pilz_industrial_motion_planner:/home/fabian/moveit2/install/moveit_ros_control_interface:/home/fabian/moveit2/install/moveit_plugins:/home/fabian/moveit2/install/moveit_simple_controller_manager:/home/fabian/moveit2/install/moveit_setup_assistant:/home/fabian/moveit2/install/moveit_setup_srdf_plugins:/home/fabian/moveit2/install/moveit_setup_core_plugins:/home/fabian/moveit2/install/moveit_setup_controllers:/home/fabian/moveit2/install/moveit_setup_app_plugins:/home/fabian/moveit2/install/moveit_setup_framework:/home/fabian/moveit2/install/moveit_servo:/home/fabian/moveit2/install/moveit_ros_trajectory_cache:/home/fabian/moveit2/install/moveit_ros:/home/fabian/moveit2/install/moveit_ros_visualization:/home/fabian/moveit2/install/moveit_py:/home/fabian/moveit2/install/moveit_hybrid_planning:/home/fabian/moveit2/install/moveit_ros_planning_interface:/home/fabian/moveit2/install/moveit_ros_benchmarks:/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_robot_interaction:/home/fabian/moveit2/install/moveit_ros_perception:/home/fabian/moveit2/install/moveit_resources_prbt_pg70_support:/home/fabian/moveit2/install/moveit_resources_prbt_moveit_config:/home/fabian/moveit2/install/moveit_ros_move_group:/home/fabian/moveit2/install/moveit_planners_ompl:/home/fabian/moveit2/install/moveit_kinematics:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_resources_prbt_support:/home/fabian/moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fabian/moveit2/install/moveit_planners_stomp:/home/fabian/moveit2/install/moveit_planners_chomp:/home/fabian/moveit2/install/chomp_motion_planner:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_common:/home/fabian/yb_support/ros_odrive/install/odrive_ros2_control:/home/fabian/yb_support/ros_odrive/install/odrive_can:/home/fabian/youbot_ws/install/youbot:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox:/home/fabian/yb_support/my_msgs/install/my_msgs:/home/fabian/yb_support/urdf_parser_py/install/urdfdom_py:/home/fabian/yb_support/twist_stamper/install/twist_stamper:/home/fabian/yb_support/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/fabian/yb_support/mecanum_drive_controller/install/mecanum_drive_controller:/home/fabian/ros2_ws/install/ros2_control_demo_example_2:/home/fabian/ros2_ws/install/ros2_control_demo_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_system_tests:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_navigation:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_localization:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_gazebo:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_docking:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_bringup:/home/fabian/yahboom_rosmaster/install/mecanum_drive_controller:/home/fabian/cartesian_controllers/install/cartesian_compliance_controller:/home/fabian/cartesian_controllers/install/cartesian_motion_controller:/home/fabian/cartesian_controllers/install/cartesian_force_controller:/home/fabian/cartesian_controllers/install/cartesian_controller_utilities:/home/fabian/cartesian_controllers/install/cartesian_controller_simulation:/home/fabian/cartesian_controllers/install/cartesian_controller_handles:/home/fabian/cartesian_controllers/install/cartesian_controller_base:/home/fabian/ros2_control_demos/example_7/install/ros2_control_demo_example_7:/home/fabian/yb_support/unilidar_sdk2/install/unitree_lidar_ros2:/home/fabian/yb_support/kdl_parser_py/install/kdl_parser_py:/home/fabian/fixslam/install/geometry_msgs:/home/fabian/fixslam/install/std_msgs:/opt/ros/rolling', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/fabian/moveit2/build/moveit_visual_tools', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fabian/moveit2/install/moveit_msgs/lib/python3.12/site-packages:/home/fabian/moveit2/install/moveit_configs_utils/lib/python3.12/site-packages:/home/fabian/moveit2/install/moveit_py/lib/python3.12/site-packages:/home/fabian/yb_support/ros_odrive/install/odrive_can/lib/python3.12/site-packages:/home/fabian/youbot_ws/build/youbot:/home/fabian/youbot_ws/install/youbot/lib/python3.12/site-packages:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox/lib/python3.12/site-packages:/home/fabian/yb_support/my_msgs/install/my_msgs/lib/python3.12/site-packages:/home/fabian/yb_support/urdf_parser_py/build/urdfdom_py/src:/home/fabian/yb_support/urdf_parser_py/install/urdfdom_py/lib/python3.12/site-packages:/home/fabian/yb_support/twist_stamper/build/twist_stamper:/home/fabian/yb_support/twist_stamper/install/twist_stamper/lib/python3.12/site-packages:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages:/home/fabian/yb_support/kdl_parser_py/build/kdl_parser_py:/home/fabian/yb_support/kdl_parser_py/install/kdl_parser_py/lib/python3.12/site-packages:/home/fabian/fixslam/install/geometry_msgs/lib/python3.12/site-packages:/home/fabian/fixslam/install/std_msgs/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_resources_panda_moveit_config:/home/fabian/moveit2/install/moveit_resources_pr2_description:/home/fabian/moveit2/install/moveit_resources_panda_description:/home/fabian/moveit2/install/moveit_msgs:/home/fabian/moveit2/install/moveit_common:/home/fabian/moveit2/install/rviz_marker_tools:/home/fabian/moveit2/install/moveit_resources:/home/fabian/moveit2/install/dual_arm_panda_moveit_config:/home/fabian/moveit2/install/moveit_resources_fanuc_moveit_config:/home/fabian/moveit2/install/moveit_resources_fanuc_description:/home/fabian/moveit2/install/pilz_industrial_motion_planner_testutils:/home/fabian/moveit2/install/moveit_runtime:/home/fabian/moveit2/install/moveit:/home/fabian/moveit2/install/moveit_planners:/home/fabian/moveit2/install/pilz_industrial_motion_planner:/home/fabian/moveit2/install/moveit_ros_control_interface:/home/fabian/moveit2/install/moveit_plugins:/home/fabian/moveit2/install/moveit_simple_controller_manager:/home/fabian/moveit2/install/moveit_setup_assistant:/home/fabian/moveit2/install/moveit_setup_srdf_plugins:/home/fabian/moveit2/install/moveit_setup_core_plugins:/home/fabian/moveit2/install/moveit_setup_controllers:/home/fabian/moveit2/install/moveit_setup_app_plugins:/home/fabian/moveit2/install/moveit_setup_framework:/home/fabian/moveit2/install/moveit_servo:/home/fabian/moveit2/install/moveit_ros_trajectory_cache:/home/fabian/moveit2/install/moveit_ros:/home/fabian/moveit2/install/moveit_ros_visualization:/home/fabian/moveit2/install/moveit_py:/home/fabian/moveit2/install/moveit_hybrid_planning:/home/fabian/moveit2/install/moveit_ros_planning_interface:/home/fabian/moveit2/install/moveit_ros_benchmarks:/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_robot_interaction:/home/fabian/moveit2/install/moveit_ros_perception:/home/fabian/moveit2/install/moveit_resources_prbt_pg70_support:/home/fabian/moveit2/install/moveit_resources_prbt_moveit_config:/home/fabian/moveit2/install/moveit_ros_move_group:/home/fabian/moveit2/install/moveit_planners_ompl:/home/fabian/moveit2/install/moveit_kinematics:/home/fabian/moveit2/install/moveit_resources_prbt_support:/home/fabian/moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fabian/moveit2/install/moveit_planners_stomp:/home/fabian/moveit2/install/moveit_planners_chomp:/home/fabian/moveit2/install/chomp_motion_planner:/home/fabian/yb_support/ros_odrive/install/odrive_ros2_control:/home/fabian/yb_support/ros_odrive/install/odrive_can:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox:/home/fabian/yb_support/my_msgs/install/my_msgs:/home/fabian/yb_support/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/fabian/yb_support/mecanum_drive_controller/install/mecanum_drive_controller:/home/fabian/ros2_ws/install/ros2_control_demo_example_2:/home/fabian/ros2_ws/install/ros2_control_demo_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_system_tests:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_navigation:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_localization:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_gazebo:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_docking:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_bringup:/home/fabian/yahboom_rosmaster/install/mecanum_drive_controller:/home/fabian/cartesian_controllers/install/cartesian_compliance_controller:/home/fabian/cartesian_controllers/install/cartesian_motion_controller:/home/fabian/cartesian_controllers/install/cartesian_force_controller:/home/fabian/cartesian_controllers/install/cartesian_controller_utilities:/home/fabian/moveit2/install/moveit_configs_utils:/home/fabian/youbot_ws/install/youbot:/home/fabian/yb_support/urdf_parser_py/install/urdfdom_py:/home/fabian/yb_support/twist_stamper/install/twist_stamper:/home/fabian/yb_support/kdl_parser_py/install/kdl_parser_py:/opt/ros/rolling:/home/fabian/cartesian_controllers/install/cartesian_controller_tests:/home/fabian/cartesian_controllers/install/cartesian_controller_simulation:/home/fabian/cartesian_controllers/install/cartesian_controller_handles:/home/fabian/cartesian_controllers/install/cartesian_controller_base:/home/fabian/ros2_control_demos/example_7/install/ros2_control_demo_example_7:/home/fabian/yb_support/unilidar_sdk2/install/unitree_lidar_ros2:/home/fabian/fixslam/install/geometry_msgs:/home/fabian/fixslam/install/std_msgs:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor', 'WSLENV': ''}), 'shell': False}
+[1.405595] (-) TimerEvent: {}
+[1.417046] (moveit_visual_tools) StdoutLine: {'line': b'-- Found moveit_common: 2.14.0 (/home/fabian/moveit2/install/moveit_common/share/moveit_common/cmake)\n'}
+[1.417699] (moveit_visual_tools) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[1.505704] (-) TimerEvent: {}
+[1.605991] (-) TimerEvent: {}
+[1.706324] (-) TimerEvent: {}
+[1.806754] (-) TimerEvent: {}
+[1.897303] (moveit_visual_tools) StderrLine: {'line': b"\x1b[0mmoveit_visual_tools: You did not request a specific build type: Choosing 'Release' for maximum performance\x1b[0m\n"}
+[1.904542] (moveit_visual_tools) StdoutLine: {'line': b'-- Found geometry_msgs: 5.8.2 (/opt/ros/rolling/share/geometry_msgs/cmake)\n'}
+[1.906893] (-) TimerEvent: {}
+[2.007163] (-) TimerEvent: {}
+[2.107544] (-) TimerEvent: {}
+[2.178540] (moveit_visual_tools) StdoutLine: {'line': b'-- Found rosidl_generator_c: 5.0.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)\n'}
+[2.186752] (moveit_visual_tools) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 5.0.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)\n'}
+[2.203011] (moveit_visual_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.207708] (-) TimerEvent: {}
+[2.220932] (moveit_visual_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.291096] (moveit_visual_tools) StdoutLine: {'line': b'-- Found graph_msgs: 0.2.0 (/opt/ros/rolling/share/graph_msgs/cmake)\n'}
+[2.307828] (-) TimerEvent: {}
+[2.316908] (moveit_visual_tools) StdoutLine: {'line': b'-- Found moveit_core: 2.14.0 (/home/fabian/moveit2/install/moveit_core/share/moveit_core/cmake)\n'}
+[2.407983] (-) TimerEvent: {}
+[2.510977] (-) TimerEvent: {}
+[2.611621] (-) TimerEvent: {}
+[2.711997] (-) TimerEvent: {}
+[2.815226] (-) TimerEvent: {}
+[2.915667] (-) TimerEvent: {}
+[2.980405] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[3.015755] (-) TimerEvent: {}
+[3.116204] (-) TimerEvent: {}
+[3.216577] (-) TimerEvent: {}
+[3.316917] (-) TimerEvent: {}
+[3.417240] (-) TimerEvent: {}
+[3.517581] (-) TimerEvent: {}
+[3.617932] (-) TimerEvent: {}
+[3.718252] (-) TimerEvent: {}
+[3.818570] (-) TimerEvent: {}
+[3.918937] (-) TimerEvent: {}
+[4.019328] (-) TimerEvent: {}
+[4.119635] (-) TimerEvent: {}
+[4.220031] (-) TimerEvent: {}
+[4.320381] (-) TimerEvent: {}
+[4.420723] (-) TimerEvent: {}
+[4.521025] (-) TimerEvent: {}
+[4.621318] (-) TimerEvent: {}
+[4.721663] (-) TimerEvent: {}
+[4.821995] (-) TimerEvent: {}
+[4.922342] (-) TimerEvent: {}
+[5.022687] (-) TimerEvent: {}
+[5.122994] (-) TimerEvent: {}
+[5.223339] (-) TimerEvent: {}
+[5.323685] (-) TimerEvent: {}
+[5.424093] (-) TimerEvent: {}
+[5.499631] (moveit_visual_tools) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/rolling/share/parameter_traits/cmake)\n'}
+[5.524209] (-) TimerEvent: {}
+[5.624558] (-) TimerEvent: {}
+[5.663894] (moveit_visual_tools) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.9.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[5.681109] (moveit_visual_tools) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.4.2 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.724706] (-) TimerEvent: {}
+[5.825078] (-) TimerEvent: {}
+[5.901874] (moveit_visual_tools) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[5.920998] (moveit_visual_tools) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.925233] (-) TimerEvent: {}
+[6.025514] (-) TimerEvent: {}
+[6.125807] (-) TimerEvent: {}
+[6.226116] (-) TimerEvent: {}
+[6.305686] (moveit_visual_tools) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 30.1.0 (/opt/ros/rolling/share/rclcpp_lifecycle/cmake)\n'}
+[6.326264] (-) TimerEvent: {}
+[6.426589] (-) TimerEvent: {}
+[6.439201] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: random \n'}
+[6.526758] (-) TimerEvent: {}
+[6.627055] (-) TimerEvent: {}
+[6.685189] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[6.685381] (moveit_visual_tools) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.727207] (-) TimerEvent: {}
+[6.827590] (-) TimerEvent: {}
+[6.927946] (-) TimerEvent: {}
+[7.028297] (-) TimerEvent: {}
+[7.128639] (-) TimerEvent: {}
+[7.228993] (-) TimerEvent: {}
+[7.327080] (moveit_visual_tools) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.14.0 (/home/fabian/moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)\n'}
+[7.329112] (-) TimerEvent: {}
+[7.333846] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono \n'}
+[7.429247] (-) TimerEvent: {}
+[7.529606] (-) TimerEvent: {}
+[7.629917] (-) TimerEvent: {}
+[7.730226] (-) TimerEvent: {}
+[7.830582] (-) TimerEvent: {}
+[7.930888] (-) TimerEvent: {}
+[8.031188] (-) TimerEvent: {}
+[8.131488] (-) TimerEvent: {}
+[8.231857] (-) TimerEvent: {}
+[8.332171] (-) TimerEvent: {}
+[8.432464] (-) TimerEvent: {}
+[8.532760] (-) TimerEvent: {}
+[8.633072] (-) TimerEvent: {}
+[8.733434] (-) TimerEvent: {}
+[8.833732] (-) TimerEvent: {}
+[8.934023] (-) TimerEvent: {}
+[9.026667] (moveit_visual_tools) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (find_package):\n'}
+[9.026909] (moveit_visual_tools) StderrLine: {'line': b'  By not providing "Findrviz_visual_tools.cmake" in CMAKE_MODULE_PATH this\n'}
+[9.027098] (moveit_visual_tools) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[9.027288] (moveit_visual_tools) StderrLine: {'line': b'  "rviz_visual_tools", but CMake did not find one.\n'}
+[9.027469] (moveit_visual_tools) StderrLine: {'line': b'\n'}
+[9.027683] (moveit_visual_tools) StderrLine: {'line': b'  Could not find a package configuration file provided by "rviz_visual_tools"\n'}
+[9.027876] (moveit_visual_tools) StderrLine: {'line': b'  with any of the following names:\n'}
+[9.028056] (moveit_visual_tools) StderrLine: {'line': b'\n'}
+[9.028254] (moveit_visual_tools) StderrLine: {'line': b'    rviz_visual_toolsConfig.cmake\n'}
+[9.028435] (moveit_visual_tools) StderrLine: {'line': b'    rviz_visual_tools-config.cmake\n'}
+[9.028614] (moveit_visual_tools) StderrLine: {'line': b'\n'}
+[9.028793] (moveit_visual_tools) StderrLine: {'line': b'  Add the installation prefix of "rviz_visual_tools" to CMAKE_PREFIX_PATH or\n'}
+[9.028972] (moveit_visual_tools) StderrLine: {'line': b'  set "rviz_visual_tools_DIR" to a directory containing one of the above\n'}
+[9.029170] (moveit_visual_tools) StderrLine: {'line': b'  files.  If "rviz_visual_tools" provides a separate development package or\n'}
+[9.029357] (moveit_visual_tools) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[9.029536] (moveit_visual_tools) StderrLine: {'line': b'\n'}
+[9.029714] (moveit_visual_tools) StderrLine: {'line': b'\x1b[0m\n'}
+[9.029999] (moveit_visual_tools) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.034173] (-) TimerEvent: {}
+[9.040131] (moveit_visual_tools) CommandEnded: {'returncode': 1}
+[9.074202] (moveit_visual_tools) JobEnded: {'identifier': 'moveit_visual_tools', 'rc': 1}
+[9.085014] (-) EventReactorShutdown: {}

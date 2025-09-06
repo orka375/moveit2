@@ -1,0 +1,63 @@
+[0mmoveit_task_constructor_visualization: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(moveit_task_visualization_tools PUBLIC
+      ${moveit_task_constructor_msgs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_visualization::moveit_motion_planning_rviz_plugin
+      moveit_ros_visualization::moveit_motion_planning_rviz_plugin_core
+      moveit_ros_visualization::moveit_planning_scene_rviz_plugin
+      moveit_ros_visualization::moveit_planning_scene_rviz_plugin_core
+      moveit_ros_visualization::moveit_robot_state_rviz_plugin
+      moveit_ros_visualization::moveit_robot_state_rviz_plugin_core
+      moveit_ros_visualization::moveit_rviz_plugin_render_tools
+      moveit_ros_visualization::moveit_trajectory_rviz_plugin
+      moveit_ros_visualization::moveit_trajectory_rviz_plugin_core
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      rviz_common::rviz_common
+      rviz_default_plugins::rviz_default_plugins
+    )
+
+Call Stack (most recent call first):
+  visualization_tools/CMakeLists.txt:29 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(motion_planning_tasks_properties PUBLIC
+      moveit_task_constructor_core::moveit_task_constructor_core
+      moveit_task_constructor_core::moveit_task_constructor_core_stage_plugins
+      moveit_task_constructor_core::moveit_task_constructor_core_stages
+      rviz_common::rviz_common
+    )
+
+Call Stack (most recent call first):
+  motion_planning_tasks/properties/CMakeLists.txt:25 (ament_target_dependencies)
+
+[0m

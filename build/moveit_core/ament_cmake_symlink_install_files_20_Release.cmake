@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/fabian/moveit2/moveit_core" FILES "/opt/ros/rolling/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/moveit_core/environment")

@@ -1,0 +1,2 @@
+Invoking command in '/home/fabian/moveit2/build/rviz_visual_tools': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fabian/moveit2/rviz_visual_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fabian/moveit2/install/rviz_visual_tools
+Invoked command in '/home/fabian/moveit2/build/rviz_visual_tools' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fabian/moveit2/rviz_visual_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fabian/moveit2/install/rviz_visual_tools

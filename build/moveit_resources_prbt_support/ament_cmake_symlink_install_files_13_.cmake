@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/fabian/moveit2/moveit_planners/test_configs/prbt_support" FILES "/home/fabian/moveit2/moveit_planners/test_configs/prbt_support/package.xml" "DESTINATION" "share/moveit_resources_prbt_support")

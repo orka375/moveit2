@@ -1,0 +1,25 @@
+-- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/fabian/moveit2/build/moveit_common
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/moveit_common/environment/path.sh
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/moveit_common/environment/path.dsv
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/moveit_common/local_setup.bash
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/moveit_common/local_setup.sh
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/moveit_common/local_setup.zsh
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/moveit_common/local_setup.dsv
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/moveit_common/package.dsv
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/moveit_common/package.xml
+-- Symlinking: /home/fabian/moveit2/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake

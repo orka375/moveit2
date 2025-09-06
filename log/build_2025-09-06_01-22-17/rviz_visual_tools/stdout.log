@@ -1,0 +1,115 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 30.1.0 (/opt/ros/rolling/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 5.0.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.0.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.9.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.2 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 30.1.0 (/opt/ros/rolling/share/rclcpp_components/cmake)
+-- Found rviz_ogre_vendor: 15.1.7 (/opt/ros/rolling/share/rviz_ogre_vendor/cmake)
+-- Setting OGRE_DIR to: '/opt/ros/rolling/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/rolling/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/rolling/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/rolling/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/rolling/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/rolling/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/rolling/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/rolling/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found sensor_msgs: 5.8.2 (/opt/ros/rolling/share/sensor_msgs/cmake)
+-- Found shape_msgs: 5.8.2 (/opt/ros/rolling/share/shape_msgs/cmake)
+-- Found visualization_msgs: 5.8.2 (/opt/ros/rolling/share/visualization_msgs/cmake)
+-- Found trajectory_msgs: 5.8.2 (/opt/ros/rolling/share/trajectory_msgs/cmake)
+-- Found eigen3_cmake_module: 0.5.1 (/opt/ros/rolling/share/eigen3_cmake_module/cmake)
+-- Found eigen_stl_containers: 1.1.0 (/opt/ros/rolling/share/eigen_stl_containers/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Found tf2: 0.44.0 (/opt/ros/rolling/share/tf2/cmake)
+-- Found tf2_eigen: 0.44.0 (/opt/ros/rolling/share/tf2_eigen/cmake)
+-- Found tf2_geometry_msgs: 0.44.0 (/opt/ros/rolling/share/tf2_geometry_msgs/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found pluginlib: 5.7.0 (/opt/ros/rolling/share/pluginlib/cmake)
+-- Found interactive_markers: 2.8.0 (/opt/ros/rolling/share/interactive_markers/cmake)
+-- Found rviz_common: 15.1.7 (/opt/ros/rolling/share/rviz_common/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/rolling/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found rviz_default_plugins: 15.1.7 (/opt/ros/rolling/share/rviz_default_plugins/cmake)
+-- Found ament_cmake_gtest: 2.8.4 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (21.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/fabian/moveit2/build/rviz_visual_tools
+[  0%] Built target rviz_visual_tools_gui_autogen_timestamp_deps
+[  0%] Built target gtest_autogen_timestamp_deps
+[  0%] Built target rviz_visual_tools_remote_control_autogen_timestamp_deps
+[  0%] Built target gtest_main_autogen_timestamp_deps
+[  2%] [34m[1mAutomatic MOC for target rviz_visual_tools_remote_control[0m
+[  4%] [34m[1mAutomatic MOC for target gtest[0m
+[  6%] [34m[1mAutomatic MOC for target rviz_visual_tools_gui[0m
+[  8%] [34m[1mAutomatic MOC for target gtest_main[0m
+[  8%] Built target rviz_visual_tools_remote_control_autogen
+[  8%] Built target gtest_main_autogen
+[  8%] Built target gtest_autogen
+[ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o[0m
+[ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o[0m
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/src/remote_control.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/rviz_visual_tools_remote_control_autogen/mocs_compilation.cpp.o[0m
+[ 20%] Built target rviz_visual_tools_gui_autogen
+[ 22%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/rviz_visual_tools_gui.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/rviz_visual_tools_gui_autogen/mocs_compilation.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/remote_control.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o[0m
+[ 31%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 33%] Built target gtest_main
+[ 35%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 37%] Built target gtest
+[ 39%] [32m[1mLinking CXX shared library librviz_visual_tools_remote_control.so[0m
+[ 41%] Built target rviz_visual_tools_remote_control
+[ 41%] Built target rviz_visual_tools_autogen_timestamp_deps
+[ 43%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[ 43%] Built target rviz_visual_tools_autogen
+[ 45%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/tf_visual_tools.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/rviz_visual_tools_autogen/mocs_compilation.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/rviz_visual_tools.cpp.o[0m
+[ 52%] [32m[1mLinking CXX shared library librviz_visual_tools_gui.so[0m
+[ 54%] Built target rviz_visual_tools_gui

@@ -1,0 +1,681 @@
+[0mpilz_industrial_motion_planner: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(planning_context_loader_base PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${moveit_msgs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_move_group::moveit_move_group_capabilities_base
+      moveit_ros_planning::default_request_adapter_parameters
+      moveit_ros_planning::default_response_adapter_parameters
+      moveit_ros_planning::kinematics_parameters
+      moveit_ros_planning::moveit_collision_plugin_loader
+      moveit_ros_planning::moveit_constraint_sampler_manager_loader
+      moveit_ros_planning::moveit_cpp
+      moveit_ros_planning::moveit_kinematics_plugin_loader
+      moveit_ros_planning::moveit_plan_execution
+      moveit_ros_planning::moveit_planning_pipeline
+      moveit_ros_planning::moveit_planning_pipeline_interfaces
+      moveit_ros_planning::moveit_planning_scene_monitor
+      moveit_ros_planning::moveit_rdf_loader
+      moveit_ros_planning::moveit_robot_model_loader
+      moveit_ros_planning::moveit_trajectory_execution_manager
+      moveit_ros_planning::planning_pipeline_parameters
+      moveit_ros_planning::srdf_publisher_node
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      tf2::tf2
+      tf2_eigen::tf2_eigen
+      tf2_eigen_kdl::tf2_eigen_kdl
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_kdl::tf2_kdl
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:68 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(joint_limits_common PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${moveit_msgs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_move_group::moveit_move_group_capabilities_base
+      moveit_ros_planning::default_request_adapter_parameters
+      moveit_ros_planning::default_response_adapter_parameters
+      moveit_ros_planning::kinematics_parameters
+      moveit_ros_planning::moveit_collision_plugin_loader
+      moveit_ros_planning::moveit_constraint_sampler_manager_loader
+      moveit_ros_planning::moveit_cpp
+      moveit_ros_planning::moveit_kinematics_plugin_loader
+      moveit_ros_planning::moveit_plan_execution
+      moveit_ros_planning::moveit_planning_pipeline
+      moveit_ros_planning::moveit_planning_pipeline_interfaces
+      moveit_ros_planning::moveit_planning_scene_monitor
+      moveit_ros_planning::moveit_rdf_loader
+      moveit_ros_planning::moveit_robot_model_loader
+      moveit_ros_planning::moveit_trajectory_execution_manager
+      moveit_ros_planning::planning_pipeline_parameters
+      moveit_ros_planning::srdf_publisher_node
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      tf2::tf2
+      tf2_eigen::tf2_eigen
+      tf2_eigen_kdl::tf2_eigen_kdl
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_kdl::tf2_kdl
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:76 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(trajectory_generation_common PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${moveit_msgs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_move_group::moveit_move_group_capabilities_base
+      moveit_ros_planning::default_request_adapter_parameters
+      moveit_ros_planning::default_response_adapter_parameters
+      moveit_ros_planning::kinematics_parameters
+      moveit_ros_planning::moveit_collision_plugin_loader
+      moveit_ros_planning::moveit_constraint_sampler_manager_loader
+      moveit_ros_planning::moveit_cpp
+      moveit_ros_planning::moveit_kinematics_plugin_loader
+      moveit_ros_planning::moveit_plan_execution
+      moveit_ros_planning::moveit_planning_pipeline
+      moveit_ros_planning::moveit_planning_pipeline_interfaces
+      moveit_ros_planning::moveit_planning_scene_monitor
+      moveit_ros_planning::moveit_rdf_loader
+      moveit_ros_planning::moveit_robot_model_loader
+      moveit_ros_planning::moveit_trajectory_execution_manager
+      moveit_ros_planning::planning_pipeline_parameters
+      moveit_ros_planning::srdf_publisher_node
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      tf2::tf2
+      tf2_eigen::tf2_eigen
+      tf2_eigen_kdl::tf2_eigen_kdl
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_kdl::tf2_kdl
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:83 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(command_list_manager PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${moveit_msgs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_move_group::moveit_move_group_capabilities_base
+      moveit_ros_planning::default_request_adapter_parameters
+      moveit_ros_planning::default_response_adapter_parameters
+      moveit_ros_planning::kinematics_parameters
+      moveit_ros_planning::moveit_collision_plugin_loader
+      moveit_ros_planning::moveit_constraint_sampler_manager_loader
+      moveit_ros_planning::moveit_cpp
+      moveit_ros_planning::moveit_kinematics_plugin_loader
+      moveit_ros_planning::moveit_plan_execution
+      moveit_ros_planning::moveit_planning_pipeline
+      moveit_ros_planning::moveit_planning_pipeline_interfaces
+      moveit_ros_planning::moveit_planning_scene_monitor
+      moveit_ros_planning::moveit_rdf_loader
+      moveit_ros_planning::moveit_robot_model_loader
+      moveit_ros_planning::moveit_trajectory_execution_manager
+      moveit_ros_planning::planning_pipeline_parameters
+      moveit_ros_planning::srdf_publisher_node
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      tf2::tf2
+      tf2_eigen::tf2_eigen
+      tf2_eigen_kdl::tf2_eigen_kdl
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_kdl::tf2_kdl
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:90 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(pilz_industrial_motion_planner PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${moveit_msgs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_move_group::moveit_move_group_capabilities_base
+      moveit_ros_planning::default_request_adapter_parameters
+      moveit_ros_planning::default_response_adapter_parameters
+      moveit_ros_planning::kinematics_parameters
+      moveit_ros_planning::moveit_collision_plugin_loader
+      moveit_ros_planning::moveit_constraint_sampler_manager_loader
+      moveit_ros_planning::moveit_cpp
+      moveit_ros_planning::moveit_kinematics_plugin_loader
+      moveit_ros_planning::moveit_plan_execution
+      moveit_ros_planning::moveit_planning_pipeline
+      moveit_ros_planning::moveit_planning_pipeline_interfaces
+      moveit_ros_planning::moveit_planning_scene_monitor
+      moveit_ros_planning::moveit_rdf_loader
+      moveit_ros_planning::moveit_robot_model_loader
+      moveit_ros_planning::moveit_trajectory_execution_manager
+      moveit_ros_planning::planning_pipeline_parameters
+      moveit_ros_planning::srdf_publisher_node
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      tf2::tf2
+      tf2_eigen::tf2_eigen
+      tf2_eigen_kdl::tf2_eigen_kdl
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_kdl::tf2_kdl
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:98 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(planning_context_loader_ptp PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${moveit_msgs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_move_group::moveit_move_group_capabilities_base
+      moveit_ros_planning::default_request_adapter_parameters
+      moveit_ros_planning::default_response_adapter_parameters
+      moveit_ros_planning::kinematics_parameters
+      moveit_ros_planning::moveit_collision_plugin_loader
+      moveit_ros_planning::moveit_constraint_sampler_manager_loader
+      moveit_ros_planning::moveit_cpp
+      moveit_ros_planning::moveit_kinematics_plugin_loader
+      moveit_ros_planning::moveit_plan_execution
+      moveit_ros_planning::moveit_planning_pipeline
+      moveit_ros_planning::moveit_planning_pipeline_interfaces
+      moveit_ros_planning::moveit_planning_scene_monitor
+      moveit_ros_planning::moveit_rdf_loader
+      moveit_ros_planning::moveit_robot_model_loader
+      moveit_ros_planning::moveit_trajectory_execution_manager
+      moveit_ros_planning::planning_pipeline_parameters
+      moveit_ros_planning::srdf_publisher_node
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      tf2::tf2
+      tf2_eigen::tf2_eigen
+      tf2_eigen_kdl::tf2_eigen_kdl
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_kdl::tf2_kdl
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:107 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(planning_context_loader_lin PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${moveit_msgs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_move_group::moveit_move_group_capabilities_base
+      moveit_ros_planning::default_request_adapter_parameters
+      moveit_ros_planning::default_response_adapter_parameters
+      moveit_ros_planning::kinematics_parameters
+      moveit_ros_planning::moveit_collision_plugin_loader
+      moveit_ros_planning::moveit_constraint_sampler_manager_loader
+      moveit_ros_planning::moveit_cpp
+      moveit_ros_planning::moveit_kinematics_plugin_loader
+      moveit_ros_planning::moveit_plan_execution
+      moveit_ros_planning::moveit_planning_pipeline
+      moveit_ros_planning::moveit_planning_pipeline_interfaces
+      moveit_ros_planning::moveit_planning_scene_monitor
+      moveit_ros_planning::moveit_rdf_loader
+      moveit_ros_planning::moveit_robot_model_loader
+      moveit_ros_planning::moveit_trajectory_execution_manager
+      moveit_ros_planning::planning_pipeline_parameters
+      moveit_ros_planning::srdf_publisher_node
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      tf2::tf2
+      tf2_eigen::tf2_eigen
+      tf2_eigen_kdl::tf2_eigen_kdl
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_kdl::tf2_kdl
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:116 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(planning_context_loader_circ PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${moveit_msgs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_move_group::moveit_move_group_capabilities_base
+      moveit_ros_planning::default_request_adapter_parameters
+      moveit_ros_planning::default_response_adapter_parameters
+      moveit_ros_planning::kinematics_parameters
+      moveit_ros_planning::moveit_collision_plugin_loader
+      moveit_ros_planning::moveit_constraint_sampler_manager_loader
+      moveit_ros_planning::moveit_cpp
+      moveit_ros_planning::moveit_kinematics_plugin_loader
+      moveit_ros_planning::moveit_plan_execution
+      moveit_ros_planning::moveit_planning_pipeline
+      moveit_ros_planning::moveit_planning_pipeline_interfaces
+      moveit_ros_planning::moveit_planning_scene_monitor
+      moveit_ros_planning::moveit_rdf_loader
+      moveit_ros_planning::moveit_robot_model_loader
+      moveit_ros_planning::moveit_trajectory_execution_manager
+      moveit_ros_planning::planning_pipeline_parameters
+      moveit_ros_planning::srdf_publisher_node
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      tf2::tf2
+      tf2_eigen::tf2_eigen
+      tf2_eigen_kdl::tf2_eigen_kdl
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_kdl::tf2_kdl
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:125 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(sequence_capability PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${moveit_msgs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_move_group::moveit_move_group_capabilities_base
+      moveit_ros_planning::default_request_adapter_parameters
+      moveit_ros_planning::default_response_adapter_parameters
+      moveit_ros_planning::kinematics_parameters
+      moveit_ros_planning::moveit_collision_plugin_loader
+      moveit_ros_planning::moveit_constraint_sampler_manager_loader
+      moveit_ros_planning::moveit_cpp
+      moveit_ros_planning::moveit_kinematics_plugin_loader
+      moveit_ros_planning::moveit_plan_execution
+      moveit_ros_planning::moveit_planning_pipeline
+      moveit_ros_planning::moveit_planning_pipeline_interfaces
+      moveit_ros_planning::moveit_planning_scene_monitor
+      moveit_ros_planning::moveit_rdf_loader
+      moveit_ros_planning::moveit_robot_model_loader
+      moveit_ros_planning::moveit_trajectory_execution_manager
+      moveit_ros_planning::planning_pipeline_parameters
+      moveit_ros_planning::srdf_publisher_node
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      tf2::tf2
+      tf2_eigen::tf2_eigen
+      tf2_eigen_kdl::tf2_eigen_kdl
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_kdl::tf2_kdl
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:132 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(pilz_industrial_motion_planner_test_utils PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${moveit_msgs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_move_group::moveit_move_group_capabilities_base
+      moveit_ros_planning::default_request_adapter_parameters
+      moveit_ros_planning::default_response_adapter_parameters
+      moveit_ros_planning::kinematics_parameters
+      moveit_ros_planning::moveit_collision_plugin_loader
+      moveit_ros_planning::moveit_constraint_sampler_manager_loader
+      moveit_ros_planning::moveit_cpp
+      moveit_ros_planning::moveit_kinematics_plugin_loader
+      moveit_ros_planning::moveit_plan_execution
+      moveit_ros_planning::moveit_planning_pipeline
+      moveit_ros_planning::moveit_planning_pipeline_interfaces
+      moveit_ros_planning::moveit_planning_scene_monitor
+      moveit_ros_planning::moveit_rdf_loader
+      moveit_ros_planning::moveit_robot_model_loader
+      moveit_ros_planning::moveit_trajectory_execution_manager
+      moveit_ros_planning::planning_pipeline_parameters
+      moveit_ros_planning::srdf_publisher_node
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      tf2::tf2
+      tf2_eigen::tf2_eigen
+      tf2_eigen_kdl::tf2_eigen_kdl
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_kdl::tf2_kdl
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  test/CMakeLists.txt:15 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(unittest_trajectory_functions PUBLIC
+      
+    )
+
+Call Stack (most recent call first):
+  test/unit_tests/CMakeLists.txt:41 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(unittest_trajectory_blender_transition_window PUBLIC
+      pilz_industrial_motion_planner_testutils::pilz_industrial_motion_planner_testutils
+    )
+
+Call Stack (most recent call first):
+  test/unit_tests/CMakeLists.txt:52 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(unittest_trajectory_generator_circ PUBLIC
+      pilz_industrial_motion_planner_testutils::pilz_industrial_motion_planner_testutils
+    )
+
+Call Stack (most recent call first):
+  test/unit_tests/CMakeLists.txt:73 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(unittest_trajectory_generator_lin PUBLIC
+      pilz_industrial_motion_planner_testutils::pilz_industrial_motion_planner_testutils
+    )
+
+Call Stack (most recent call first):
+  test/unit_tests/CMakeLists.txt:83 (ament_target_dependencies)
+
+[0m
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/install/moveit_ros_move_group/include/moveit_ros_move_group/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_planners/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/move_group_sequence_action.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_planners/pilz_industrial_motion_planner/src/move_group_sequence_action.cpp:39[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/install/moveit_ros_move_group/include/moveit_ros_move_group/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_planners/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/move_group_sequence_service.hpp:39[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_planners/pilz_industrial_motion_planner/src/move_group_sequence_service.cpp:39[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K

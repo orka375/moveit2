@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/fabian/moveit2/moveit_core" FILES "/home/fabian/moveit2/build/moveit_core/ament_cmake_core/moveit_coreConfig.cmake" "/home/fabian/moveit2/build/moveit_core/ament_cmake_core/moveit_coreConfig-version.cmake" "DESTINATION" "share/moveit_core/cmake")

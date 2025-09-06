@@ -1,0 +1,13 @@
+In file included from [01m[K/home/fabian/moveit2/rviz_visual_tools/include/rviz_visual_tools/tf_visual_tools.hpp:48[m[K,
+                 from [01m[K/home/fabian/moveit2/rviz_visual_tools/src/tf_visual_tools.cpp:33[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_broadcaster.h:41:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_BROADCASTER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   41 |   #[01;35m[Kwarning[m[K TRANSFORM_BROADCASTER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+[01m[K/home/fabian/moveit2/rviz_visual_tools/src/rviz_visual_tools.cpp:46:10:[m[K [01;31m[Kfatal error: [m[Ktf2/LinearMath/Vector3.h: No such file or directory
+   46 | #include [01;31m[K<tf2/LinearMath/Vector3.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rviz_visual_tools.dir/build.make:96: CMakeFiles/rviz_visual_tools.dir/src/rviz_visual_tools.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:241: CMakeFiles/rviz_visual_tools.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

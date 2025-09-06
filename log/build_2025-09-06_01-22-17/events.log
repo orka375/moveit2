@@ -1,0 +1,741 @@
+[0.000000] (-) TimerEvent: {}
+[0.000697] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000754] (-) JobUnselected: {'identifier': 'dual_arm_panda_moveit_config'}
+[0.000774] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000913] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000962] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000980] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.001020] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.001035] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.001047] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.001086] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.001135] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.001347] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.001390] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.001406] (-) JobUnselected: {'identifier': 'moveit_planners_stomp'}
+[0.001418] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.001457] (-) JobUnselected: {'identifier': 'moveit_py'}
+[0.001497] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.001513] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.001525] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.001573] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.001613] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.001628] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.001641] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.001681] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.001721] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.001736] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.001749] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.001788] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.001828] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.001844] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.001856] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.001894] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.001934] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.001949] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.001962] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.002072] (-) JobUnselected: {'identifier': 'moveit_ros_tests'}
+[0.002138] (-) JobUnselected: {'identifier': 'moveit_ros_trajectory_cache'}
+[0.002180] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.002196] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.002208] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.002247] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.002262] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.002274] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.002400] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.002448] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.002464] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.002649] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.002697] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.002713] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.002728] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.002767] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.002783] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.002801] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.002839] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.002854] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.002866] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.002915] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.003092] (rviz_visual_tools) JobQueued: {'identifier': 'rviz_visual_tools', 'dependencies': OrderedDict()}
+[0.003153] (rviz_visual_tools) JobStarted: {'identifier': 'rviz_visual_tools'}
+[0.026690] (rviz_visual_tools) JobProgress: {'identifier': 'rviz_visual_tools', 'progress': 'cmake'}
+[0.028659] (rviz_visual_tools) Command: {'cmd': ['/usr/bin/cmake', '/home/fabian/moveit2/rviz_visual_tools', '-DCMAKE_INSTALL_PREFIX=/home/fabian/moveit2/install/rviz_visual_tools'], 'cwd': '/home/fabian/moveit2/build/rviz_visual_tools', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/rolling/share', 'USER': 'fabian', 'GZ_CONFIG_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/share/gz:/opt/ros/rolling/opt/sdformat_vendor/share/gz:/opt/ros/rolling/opt/gz_gui_vendor/share/gz:/opt/ros/rolling/opt/gz_transport_vendor/share/gz:/opt/ros/rolling/opt/gz_rendering_vendor/share/gz:/opt/ros/rolling/opt/gz_plugin_vendor/share/gz:/opt/ros/rolling/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/rolling/opt/gz_msgs_vendor/share/gz:/opt/ros/rolling/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/fabian/cartesian_controllers/install/cartesian_controller_tests/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fabian/moveit2/install/rviz_marker_tools/lib:/home/fabian/moveit2/install/moveit_msgs/lib:/home/fabian/moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/fabian/moveit2/install/pilz_industrial_motion_planner/lib:/home/fabian/moveit2/install/moveit_ros_control_interface/lib:/home/fabian/moveit2/install/moveit_simple_controller_manager/lib:/home/fabian/moveit2/install/moveit_setup_assistant/lib:/home/fabian/moveit2/install/moveit_setup_srdf_plugins/lib:/home/fabian/moveit2/install/moveit_setup_core_plugins/lib:/home/fabian/moveit2/install/moveit_setup_controllers/lib:/home/fabian/moveit2/install/moveit_setup_app_plugins/lib:/home/fabian/moveit2/install/moveit_setup_framework/lib:/home/fabian/moveit2/install/moveit_servo/lib:/home/fabian/moveit2/install/moveit_ros_trajectory_cache/lib:/home/fabian/moveit2/install/moveit_ros_visualization/lib:/home/fabian/moveit2/install/moveit_py/lib:/home/fabian/moveit2/install/moveit_hybrid_planning/lib:/home/fabian/moveit2/install/moveit_ros_planning_interface/lib:/home/fabian/moveit2/install/moveit_ros_benchmarks/lib:/home/fabian/moveit2/install/moveit_ros_warehouse/lib:/home/fabian/moveit2/install/moveit_ros_robot_interaction/lib:/home/fabian/moveit2/install/moveit_ros_perception/lib:/home/fabian/moveit2/install/moveit_ros_move_group/lib:/home/fabian/moveit2/install/moveit_planners_ompl/lib:/home/fabian/moveit2/install/moveit_kinematics/lib:/home/fabian/moveit2/install/moveit_ros_planning/lib:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/fabian/moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/fabian/moveit2/install/moveit_planners_stomp/lib:/home/fabian/moveit2/install/moveit_planners_chomp/lib:/home/fabian/moveit2/install/chomp_motion_planner/lib:/home/fabian/moveit2/install/moveit_core/lib:/home/fabian/yb_support/ros_odrive/install/odrive_ros2_control/lib:/home/fabian/yb_support/ros_odrive/install/odrive_can/lib:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox/lib:/home/fabian/yb_support/my_msgs/install/my_msgs/lib:/home/fabian/yb_support/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib:/home/fabian/yb_support/mecanum_drive_controller/install/mecanum_drive_controller/lib:/home/fabian/ros2_ws/install/ros2_control_demo_example_2/lib:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs/lib:/home/fabian/yahboom_rosmaster/install/mecanum_drive_controller/lib:/home/fabian/cartesian_controllers/install/cartesian_compliance_controller/lib:/home/fabian/cartesian_controllers/install/cartesian_motion_controller/lib:/home/fabian/cartesian_controllers/install/cartesian_force_controller/lib:/home/fabian/cartesian_controllers/install/cartesian_controller_simulation/lib:/home/fabian/cartesian_controllers/install/cartesian_controller_handles/lib:/home/fabian/cartesian_controllers/install/cartesian_controller_base/lib:/home/fabian/ros2_control_demos/example_7/install/ros2_control_demo_example_7/lib:/home/fabian/fixslam/install/geometry_msgs/lib:/home/fabian/fixslam/install/std_msgs/lib:/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_sim_vendor/lib:/opt/ros/rolling/opt/gz_sensors_vendor/lib:/opt/ros/rolling/opt/gz_physics_vendor/lib:/opt/ros/rolling/opt/sdformat_vendor/lib:/opt/ros/rolling/opt/gz_gui_vendor/lib:/opt/ros/rolling/opt/gz_transport_vendor/lib:/opt/ros/rolling/opt/gz_rendering_vendor/lib:/opt/ros/rolling/opt/gz_plugin_vendor/lib:/opt/ros/rolling/opt/gz_fuel_tools_vendor/lib:/opt/ros/rolling/opt/gz_msgs_vendor/lib:/opt/ros/rolling/opt/gz_common_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_tools_vendor/lib:/opt/ros/rolling/opt/gz_ogre_next_vendor/lib:/opt/ros/rolling/opt/gz_dartsim_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/fabian', 'OLDPWD': '/home/fabian', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fabian/moveit2/install:/home/fabian/yb_support/my_msgs/install:/home/fabian/youbot_ws/install:/home/fabian/ros2_ws/install:/home/fabian/yahboom_rosmaster/install:/home/fabian/cartesian_controllers/install:/home/fabian/ros2_control_demos/example_7/install:/home/fabian/yb_support/urdf_parser_py/install:/home/fabian/yb_support/kdl_parser_py/install:/home/fabian/yb_support/slam_toolbox/install:/home/fabian/yb_support/twist_stamper/install:/home/fabian/yb_support/pointcloud_to_laserscan/install:/home/fabian/yb_support/mecanum_drive_controller/install:/home/fabian/yb_support/unilidar_sdk2/install:/home/fabian/yb_support/ros_odrive/install:/home/fabian/fixslam/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'fabian', 'NAME': 'DESKTOP-579AJL8', 'WSL_INTEROP': '/run/WSL/540_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/fabian/cartesian_controllers/install/cartesian_controller_tests/lib/x86_64-linux-gnu/pkgconfig:/home/fabian/cartesian_controllers/install/cartesian_controller_tests/lib/pkgconfig', 'TERM': 'xterm-256color', 'PATH': '/home/fabian/moveit2/install/moveit_core/bin:/opt/ros/rolling/opt/gz_msgs_vendor/bin:/opt/ros/rolling/opt/gz_tools_vendor/bin:/opt/ros/rolling/opt/gz_ogre_next_vendor/bin:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Beckhoff/TwinCAT/Common64/:/mnt/c/Program Files (x86)/Beckhoff/TwinCAT/Common32/:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/ProgramData/Beckhoff/TcPkg/:/mnt/c/Program Files (x86)/AOMEI/AOMEI Backupper/7.4.1:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/MinGW/bin:/mnt/c/MinGW/mingw32/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ros/jazzy/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/e/xmllint/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files (x86)/Windows Kits/10:/mnt/c/Users/fabia/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/fabian/moveit2/install/rviz_marker_tools:/home/fabian/moveit2/install/moveit_resources:/home/fabian/moveit2/install/moveit_resources_pr2_description:/home/fabian/moveit2/install/moveit_resources_panda_moveit_config:/home/fabian/moveit2/install/dual_arm_panda_moveit_config:/home/fabian/moveit2/install/moveit_resources_panda_description:/home/fabian/moveit2/install/moveit_resources_fanuc_moveit_config:/home/fabian/moveit2/install/moveit_resources_fanuc_description:/home/fabian/moveit2/install/moveit_msgs:/home/fabian/moveit2/install/pilz_industrial_motion_planner_testutils:/home/fabian/moveit2/install/moveit_runtime:/home/fabian/moveit2/install/moveit:/home/fabian/moveit2/install/moveit_planners:/home/fabian/moveit2/install/pilz_industrial_motion_planner:/home/fabian/moveit2/install/moveit_ros_control_interface:/home/fabian/moveit2/install/moveit_plugins:/home/fabian/moveit2/install/moveit_simple_controller_manager:/home/fabian/moveit2/install/moveit_setup_assistant:/home/fabian/moveit2/install/moveit_setup_srdf_plugins:/home/fabian/moveit2/install/moveit_setup_core_plugins:/home/fabian/moveit2/install/moveit_setup_controllers:/home/fabian/moveit2/install/moveit_setup_app_plugins:/home/fabian/moveit2/install/moveit_setup_framework:/home/fabian/moveit2/install/moveit_servo:/home/fabian/moveit2/install/moveit_ros_trajectory_cache:/home/fabian/moveit2/install/moveit_ros:/home/fabian/moveit2/install/moveit_ros_visualization:/home/fabian/moveit2/install/moveit_py:/home/fabian/moveit2/install/moveit_hybrid_planning:/home/fabian/moveit2/install/moveit_ros_planning_interface:/home/fabian/moveit2/install/moveit_ros_benchmarks:/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_robot_interaction:/home/fabian/moveit2/install/moveit_ros_perception:/home/fabian/moveit2/install/moveit_resources_prbt_pg70_support:/home/fabian/moveit2/install/moveit_resources_prbt_moveit_config:/home/fabian/moveit2/install/moveit_ros_move_group:/home/fabian/moveit2/install/moveit_planners_ompl:/home/fabian/moveit2/install/moveit_kinematics:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_resources_prbt_support:/home/fabian/moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fabian/moveit2/install/moveit_planners_stomp:/home/fabian/moveit2/install/moveit_planners_chomp:/home/fabian/moveit2/install/chomp_motion_planner:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_configs_utils:/home/fabian/moveit2/install/moveit_common:/home/fabian/yb_support/ros_odrive/install/odrive_ros2_control:/home/fabian/yb_support/ros_odrive/install/odrive_can:/home/fabian/youbot_ws/install/youbot:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox:/home/fabian/yb_support/my_msgs/install/my_msgs:/home/fabian/yb_support/urdf_parser_py/install/urdfdom_py:/home/fabian/yb_support/twist_stamper/install/twist_stamper:/home/fabian/yb_support/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/fabian/yb_support/mecanum_drive_controller/install/mecanum_drive_controller:/home/fabian/ros2_ws/install/ros2_control_demo_example_2:/home/fabian/ros2_ws/install/ros2_control_demo_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_system_tests:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_navigation:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_localization:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_gazebo:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_docking:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_bringup:/home/fabian/yahboom_rosmaster/install/mecanum_drive_controller:/home/fabian/cartesian_controllers/install/cartesian_compliance_controller:/home/fabian/cartesian_controllers/install/cartesian_motion_controller:/home/fabian/cartesian_controllers/install/cartesian_force_controller:/home/fabian/cartesian_controllers/install/cartesian_controller_utilities:/home/fabian/cartesian_controllers/install/cartesian_controller_simulation:/home/fabian/cartesian_controllers/install/cartesian_controller_handles:/home/fabian/cartesian_controllers/install/cartesian_controller_base:/home/fabian/ros2_control_demos/example_7/install/ros2_control_demo_example_7:/home/fabian/yb_support/unilidar_sdk2/install/unitree_lidar_ros2:/home/fabian/yb_support/kdl_parser_py/install/kdl_parser_py:/home/fabian/fixslam/install/geometry_msgs:/home/fabian/fixslam/install/std_msgs:/opt/ros/rolling', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/fabian/moveit2/build/rviz_visual_tools', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fabian/moveit2/install/moveit_msgs/lib/python3.12/site-packages:/home/fabian/moveit2/install/moveit_py/lib/python3.12/site-packages:/home/fabian/moveit2/install/moveit_configs_utils/lib/python3.12/site-packages:/home/fabian/yb_support/ros_odrive/install/odrive_can/lib/python3.12/site-packages:/home/fabian/youbot_ws/build/youbot:/home/fabian/youbot_ws/install/youbot/lib/python3.12/site-packages:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox/lib/python3.12/site-packages:/home/fabian/yb_support/my_msgs/install/my_msgs/lib/python3.12/site-packages:/home/fabian/yb_support/urdf_parser_py/build/urdfdom_py/src:/home/fabian/yb_support/urdf_parser_py/install/urdfdom_py/lib/python3.12/site-packages:/home/fabian/yb_support/twist_stamper/build/twist_stamper:/home/fabian/yb_support/twist_stamper/install/twist_stamper/lib/python3.12/site-packages:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages:/home/fabian/yb_support/kdl_parser_py/build/kdl_parser_py:/home/fabian/yb_support/kdl_parser_py/install/kdl_parser_py/lib/python3.12/site-packages:/home/fabian/fixslam/install/geometry_msgs/lib/python3.12/site-packages:/home/fabian/fixslam/install/std_msgs/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/fabian/moveit2/install/rviz_marker_tools:/home/fabian/moveit2/install/moveit_resources:/home/fabian/moveit2/install/moveit_resources_pr2_description:/home/fabian/moveit2/install/moveit_resources_panda_moveit_config:/home/fabian/moveit2/install/dual_arm_panda_moveit_config:/home/fabian/moveit2/install/moveit_resources_panda_description:/home/fabian/moveit2/install/moveit_resources_fanuc_moveit_config:/home/fabian/moveit2/install/moveit_resources_fanuc_description:/home/fabian/moveit2/install/moveit_msgs:/home/fabian/moveit2/install/pilz_industrial_motion_planner_testutils:/home/fabian/moveit2/install/moveit_runtime:/home/fabian/moveit2/install/moveit:/home/fabian/moveit2/install/moveit_planners:/home/fabian/moveit2/install/pilz_industrial_motion_planner:/home/fabian/moveit2/install/moveit_ros_control_interface:/home/fabian/moveit2/install/moveit_plugins:/home/fabian/moveit2/install/moveit_simple_controller_manager:/home/fabian/moveit2/install/moveit_setup_assistant:/home/fabian/moveit2/install/moveit_setup_srdf_plugins:/home/fabian/moveit2/install/moveit_setup_core_plugins:/home/fabian/moveit2/install/moveit_setup_controllers:/home/fabian/moveit2/install/moveit_setup_app_plugins:/home/fabian/moveit2/install/moveit_setup_framework:/home/fabian/moveit2/install/moveit_servo:/home/fabian/moveit2/install/moveit_ros_trajectory_cache:/home/fabian/moveit2/install/moveit_ros:/home/fabian/moveit2/install/moveit_ros_visualization:/home/fabian/moveit2/install/moveit_py:/home/fabian/moveit2/install/moveit_hybrid_planning:/home/fabian/moveit2/install/moveit_ros_planning_interface:/home/fabian/moveit2/install/moveit_ros_benchmarks:/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_robot_interaction:/home/fabian/moveit2/install/moveit_ros_perception:/home/fabian/moveit2/install/moveit_resources_prbt_pg70_support:/home/fabian/moveit2/install/moveit_resources_prbt_moveit_config:/home/fabian/moveit2/install/moveit_ros_move_group:/home/fabian/moveit2/install/moveit_planners_ompl:/home/fabian/moveit2/install/moveit_kinematics:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_resources_prbt_support:/home/fabian/moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fabian/moveit2/install/moveit_planners_stomp:/home/fabian/moveit2/install/moveit_planners_chomp:/home/fabian/moveit2/install/chomp_motion_planner:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_common:/home/fabian/yb_support/ros_odrive/install/odrive_ros2_control:/home/fabian/yb_support/ros_odrive/install/odrive_can:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox:/home/fabian/yb_support/my_msgs/install/my_msgs:/home/fabian/yb_support/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/fabian/yb_support/mecanum_drive_controller/install/mecanum_drive_controller:/home/fabian/ros2_ws/install/ros2_control_demo_example_2:/home/fabian/ros2_ws/install/ros2_control_demo_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_system_tests:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_navigation:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_localization:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_gazebo:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_docking:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_bringup:/home/fabian/yahboom_rosmaster/install/mecanum_drive_controller:/home/fabian/cartesian_controllers/install/cartesian_compliance_controller:/home/fabian/cartesian_controllers/install/cartesian_motion_controller:/home/fabian/cartesian_controllers/install/cartesian_force_controller:/home/fabian/cartesian_controllers/install/cartesian_controller_utilities:/home/fabian/moveit2/install/moveit_configs_utils:/home/fabian/youbot_ws/install/youbot:/home/fabian/yb_support/urdf_parser_py/install/urdfdom_py:/home/fabian/yb_support/twist_stamper/install/twist_stamper:/home/fabian/yb_support/kdl_parser_py/install/kdl_parser_py:/opt/ros/rolling:/home/fabian/cartesian_controllers/install/cartesian_controller_tests:/home/fabian/cartesian_controllers/install/cartesian_controller_simulation:/home/fabian/cartesian_controllers/install/cartesian_controller_handles:/home/fabian/cartesian_controllers/install/cartesian_controller_base:/home/fabian/ros2_control_demos/example_7/install/ros2_control_demo_example_7:/home/fabian/yb_support/unilidar_sdk2/install/unitree_lidar_ros2:/home/fabian/fixslam/install/geometry_msgs:/home/fabian/fixslam/install/std_msgs:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor', 'WSLENV': ''}), 'shell': False}
+[0.099424] (-) TimerEvent: {}
+[0.199727] (-) TimerEvent: {}
+[0.257108] (rviz_visual_tools) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.299865] (-) TimerEvent: {}
+[0.400186] (-) TimerEvent: {}
+[0.500508] (-) TimerEvent: {}
+[0.600843] (-) TimerEvent: {}
+[0.701137] (-) TimerEvent: {}
+[0.801462] (-) TimerEvent: {}
+[0.901779] (-) TimerEvent: {}
+[1.002127] (-) TimerEvent: {}
+[1.102419] (-) TimerEvent: {}
+[1.200092] (rviz_visual_tools) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.202506] (-) TimerEvent: {}
+[1.302749] (-) TimerEvent: {}
+[1.403044] (-) TimerEvent: {}
+[1.503375] (-) TimerEvent: {}
+[1.603726] (-) TimerEvent: {}
+[1.704016] (-) TimerEvent: {}
+[1.804331] (-) TimerEvent: {}
+[1.904660] (-) TimerEvent: {}
+[2.005049] (-) TimerEvent: {}
+[2.089388] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.105167] (-) TimerEvent: {}
+[2.205460] (-) TimerEvent: {}
+[2.305768] (-) TimerEvent: {}
+[2.406071] (-) TimerEvent: {}
+[2.506377] (-) TimerEvent: {}
+[2.510456] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.520054] (rviz_visual_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.520374] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.520870] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.606547] (-) TimerEvent: {}
+[2.666038] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.706670] (-) TimerEvent: {}
+[2.807011] (-) TimerEvent: {}
+[2.907383] (-) TimerEvent: {}
+[3.007869] (-) TimerEvent: {}
+[3.099142] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.108023] (-) TimerEvent: {}
+[3.109149] (rviz_visual_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.109506] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.110097] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.123398] (rviz_visual_tools) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[3.208187] (-) TimerEvent: {}
+[3.308566] (-) TimerEvent: {}
+[3.408880] (-) TimerEvent: {}
+[3.473534] (rviz_visual_tools) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.509075] (-) TimerEvent: {}
+[3.609403] (-) TimerEvent: {}
+[3.709707] (-) TimerEvent: {}
+[3.732320] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rclcpp: 30.1.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[3.809851] (-) TimerEvent: {}
+[3.910151] (-) TimerEvent: {}
+[4.010484] (-) TimerEvent: {}
+[4.052616] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rosidl_generator_c: 5.0.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)\n'}
+[4.094278] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 5.0.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)\n'}
+[4.110639] (-) TimerEvent: {}
+[4.143567] (rviz_visual_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.193552] (rviz_visual_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.210748] (-) TimerEvent: {}
+[4.311048] (-) TimerEvent: {}
+[4.376671] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.9.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[4.393676] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.4.2 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.411178] (-) TimerEvent: {}
+[4.511454] (-) TimerEvent: {}
+[4.611787] (-) TimerEvent: {}
+[4.622895] (rviz_visual_tools) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[4.642577] (rviz_visual_tools) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.711913] (-) TimerEvent: {}
+[4.812201] (-) TimerEvent: {}
+[4.912525] (-) TimerEvent: {}
+[4.989450] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rclcpp_components: 30.1.0 (/opt/ros/rolling/share/rclcpp_components/cmake)\n'}
+[5.012667] (-) TimerEvent: {}
+[5.073805] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rviz_ogre_vendor: 15.1.7 (/opt/ros/rolling/share/rviz_ogre_vendor/cmake)\n'}
+[5.074130] (rviz_visual_tools) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/rolling/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[5.075653] (rviz_visual_tools) StdoutLine: {'line': b'-- Found OGRE\n'}
+[5.075843] (rviz_visual_tools) StdoutLine: {'line': b'--   static     : OFF\n'}
+[5.075928] (rviz_visual_tools) StdoutLine: {'line': b'--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[5.076004] (rviz_visual_tools) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[5.076165] (rviz_visual_tools) StdoutLine: {'line': b'--   media      : /opt/ros/rolling/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[5.076400] (rviz_visual_tools) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[5.076502] (rviz_visual_tools) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/rolling/opt/rviz_ogre_vendor/lib\n'}
+[5.076574] (rviz_visual_tools) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[5.076671] (rviz_visual_tools) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/rolling/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[5.076745] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/rolling/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[5.076822] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/rolling/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[5.076890] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/rolling/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[5.076958] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/rolling/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[5.112784] (-) TimerEvent: {}
+[5.213078] (-) TimerEvent: {}
+[5.313389] (-) TimerEvent: {}
+[5.413700] (-) TimerEvent: {}
+[5.514011] (-) TimerEvent: {}
+[5.614334] (-) TimerEvent: {}
+[5.714663] (-) TimerEvent: {}
+[5.814958] (-) TimerEvent: {}
+[5.915275] (-) TimerEvent: {}
+[6.015573] (-) TimerEvent: {}
+[6.115935] (-) TimerEvent: {}
+[6.216248] (-) TimerEvent: {}
+[6.316572] (-) TimerEvent: {}
+[6.416935] (-) TimerEvent: {}
+[6.517233] (-) TimerEvent: {}
+[6.617564] (-) TimerEvent: {}
+[6.717896] (-) TimerEvent: {}
+[6.818201] (-) TimerEvent: {}
+[6.918512] (-) TimerEvent: {}
+[7.018838] (-) TimerEvent: {}
+[7.119158] (-) TimerEvent: {}
+[7.219477] (-) TimerEvent: {}
+[7.319820] (-) TimerEvent: {}
+[7.420159] (-) TimerEvent: {}
+[7.520470] (-) TimerEvent: {}
+[7.620799] (-) TimerEvent: {}
+[7.721099] (-) TimerEvent: {}
+[7.821491] (-) TimerEvent: {}
+[7.921842] (-) TimerEvent: {}
+[8.022136] (-) TimerEvent: {}
+[8.122430] (-) TimerEvent: {}
+[8.222766] (-) TimerEvent: {}
+[8.323123] (-) TimerEvent: {}
+[8.423414] (-) TimerEvent: {}
+[8.481740] (rviz_visual_tools) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[8.523529] (-) TimerEvent: {}
+[8.623885] (-) TimerEvent: {}
+[8.724189] (-) TimerEvent: {}
+[8.824506] (-) TimerEvent: {}
+[8.924851] (-) TimerEvent: {}
+[9.025181] (-) TimerEvent: {}
+[9.125481] (-) TimerEvent: {}
+[9.225793] (-) TimerEvent: {}
+[9.326135] (-) TimerEvent: {}
+[9.426450] (-) TimerEvent: {}
+[9.525633] (rviz_visual_tools) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[9.526525] (-) TimerEvent: {}
+[9.626781] (-) TimerEvent: {}
+[9.727095] (-) TimerEvent: {}
+[9.827401] (-) TimerEvent: {}
+[9.927758] (-) TimerEvent: {}
+[10.028053] (-) TimerEvent: {}
+[10.128373] (-) TimerEvent: {}
+[10.228676] (-) TimerEvent: {}
+[10.329030] (-) TimerEvent: {}
+[10.429351] (-) TimerEvent: {}
+[10.529648] (-) TimerEvent: {}
+[10.629947] (-) TimerEvent: {}
+[10.730264] (-) TimerEvent: {}
+[10.830565] (-) TimerEvent: {}
+[10.930891] (-) TimerEvent: {}
+[11.031275] (-) TimerEvent: {}
+[11.131576] (-) TimerEvent: {}
+[11.231926] (-) TimerEvent: {}
+[11.332234] (-) TimerEvent: {}
+[11.432565] (-) TimerEvent: {}
+[11.532882] (-) TimerEvent: {}
+[11.633197] (-) TimerEvent: {}
+[11.733494] (-) TimerEvent: {}
+[11.833831] (-) TimerEvent: {}
+[11.934157] (-) TimerEvent: {}
+[12.034470] (-) TimerEvent: {}
+[12.134780] (-) TimerEvent: {}
+[12.235098] (-) TimerEvent: {}
+[12.335432] (-) TimerEvent: {}
+[12.435758] (-) TimerEvent: {}
+[12.536099] (-) TimerEvent: {}
+[12.636427] (-) TimerEvent: {}
+[12.736773] (-) TimerEvent: {}
+[12.837075] (-) TimerEvent: {}
+[12.937388] (-) TimerEvent: {}
+[13.037709] (-) TimerEvent: {}
+[13.138022] (-) TimerEvent: {}
+[13.238347] (-) TimerEvent: {}
+[13.338651] (-) TimerEvent: {}
+[13.439026] (-) TimerEvent: {}
+[13.539339] (-) TimerEvent: {}
+[13.639640] (-) TimerEvent: {}
+[13.739987] (-) TimerEvent: {}
+[13.840297] (-) TimerEvent: {}
+[13.940617] (-) TimerEvent: {}
+[14.040929] (-) TimerEvent: {}
+[14.141225] (-) TimerEvent: {}
+[14.241531] (-) TimerEvent: {}
+[14.341838] (-) TimerEvent: {}
+[14.442166] (-) TimerEvent: {}
+[14.542482] (-) TimerEvent: {}
+[14.642834] (-) TimerEvent: {}
+[14.743147] (-) TimerEvent: {}
+[14.843469] (-) TimerEvent: {}
+[14.943787] (-) TimerEvent: {}
+[15.044105] (-) TimerEvent: {}
+[15.144397] (-) TimerEvent: {}
+[15.244707] (-) TimerEvent: {}
+[15.345015] (-) TimerEvent: {}
+[15.445356] (-) TimerEvent: {}
+[15.545657] (-) TimerEvent: {}
+[15.645957] (-) TimerEvent: {}
+[15.746253] (-) TimerEvent: {}
+[15.846623] (-) TimerEvent: {}
+[15.946944] (-) TimerEvent: {}
+[16.047265] (-) TimerEvent: {}
+[16.147610] (-) TimerEvent: {}
+[16.247938] (-) TimerEvent: {}
+[16.348252] (-) TimerEvent: {}
+[16.448594] (-) TimerEvent: {}
+[16.548895] (-) TimerEvent: {}
+[16.649218] (-) TimerEvent: {}
+[16.749585] (-) TimerEvent: {}
+[16.849927] (-) TimerEvent: {}
+[16.950247] (-) TimerEvent: {}
+[17.050567] (-) TimerEvent: {}
+[17.150870] (-) TimerEvent: {}
+[17.251216] (-) TimerEvent: {}
+[17.351512] (-) TimerEvent: {}
+[17.451861] (-) TimerEvent: {}
+[17.552162] (-) TimerEvent: {}
+[17.652606] (-) TimerEvent: {}
+[17.753091] (-) TimerEvent: {}
+[17.853391] (-) TimerEvent: {}
+[17.953708] (-) TimerEvent: {}
+[18.054001] (-) TimerEvent: {}
+[18.154310] (-) TimerEvent: {}
+[18.254632] (-) TimerEvent: {}
+[18.354933] (-) TimerEvent: {}
+[18.391060] (rviz_visual_tools) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[18.391388] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[18.455067] (-) TimerEvent: {}
+[18.555380] (-) TimerEvent: {}
+[18.655757] (-) TimerEvent: {}
+[18.681967] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[18.682259] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[18.755908] (-) TimerEvent: {}
+[18.856203] (-) TimerEvent: {}
+[18.956537] (-) TimerEvent: {}
+[18.964695] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[18.964874] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for connect\n'}
+[19.056698] (-) TimerEvent: {}
+[19.156983] (-) TimerEvent: {}
+[19.245453] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[19.245640] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for remove\n'}
+[19.257152] (-) TimerEvent: {}
+[19.357499] (-) TimerEvent: {}
+[19.457813] (-) TimerEvent: {}
+[19.527711] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[19.527906] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[19.557994] (-) TimerEvent: {}
+[19.658339] (-) TimerEvent: {}
+[19.758652] (-) TimerEvent: {}
+[19.808543] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[19.808819] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[19.858826] (-) TimerEvent: {}
+[19.959145] (-) TimerEvent: {}
+[20.059471] (-) TimerEvent: {}
+[20.102144] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[20.159615] (-) TimerEvent: {}
+[20.186034] (rviz_visual_tools) StdoutLine: {'line': b'-- Found sensor_msgs: 5.8.2 (/opt/ros/rolling/share/sensor_msgs/cmake)\n'}
+[20.259791] (-) TimerEvent: {}
+[20.285882] (rviz_visual_tools) StdoutLine: {'line': b'-- Found shape_msgs: 5.8.2 (/opt/ros/rolling/share/shape_msgs/cmake)\n'}
+[20.315859] (rviz_visual_tools) StdoutLine: {'line': b'-- Found visualization_msgs: 5.8.2 (/opt/ros/rolling/share/visualization_msgs/cmake)\n'}
+[20.359661] (rviz_visual_tools) StdoutLine: {'line': b'-- Found trajectory_msgs: 5.8.2 (/opt/ros/rolling/share/trajectory_msgs/cmake)\n'}
+[20.359877] (-) TimerEvent: {}
+[20.393750] (rviz_visual_tools) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.5.1 (/opt/ros/rolling/share/eigen3_cmake_module/cmake)\n'}
+[20.405820] (rviz_visual_tools) StdoutLine: {'line': b'-- Found eigen_stl_containers: 1.1.0 (/opt/ros/rolling/share/eigen_stl_containers/cmake)\n'}
+[20.429491] (rviz_visual_tools) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[20.435854] (rviz_visual_tools) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") \n'}
+[20.449114] (rviz_visual_tools) StdoutLine: {'line': b'-- Found tf2: 0.44.0 (/opt/ros/rolling/share/tf2/cmake)\n'}
+[20.460030] (-) TimerEvent: {}
+[20.465119] (rviz_visual_tools) StdoutLine: {'line': b'-- Found tf2_eigen: 0.44.0 (/opt/ros/rolling/share/tf2_eigen/cmake)\n'}
+[20.560183] (-) TimerEvent: {}
+[20.649457] (rviz_visual_tools) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.44.0 (/opt/ros/rolling/share/tf2_geometry_msgs/cmake)\n'}
+[20.660330] (-) TimerEvent: {}
+[20.753145] (rviz_visual_tools) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[20.760490] (-) TimerEvent: {}
+[20.767181] (rviz_visual_tools) StdoutLine: {'line': b'-- Found pluginlib: 5.7.0 (/opt/ros/rolling/share/pluginlib/cmake)\n'}
+[20.795331] (rviz_visual_tools) StdoutLine: {'line': b'-- Found interactive_markers: 2.8.0 (/opt/ros/rolling/share/interactive_markers/cmake)\n'}
+[20.813874] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rviz_common: 15.1.7 (/opt/ros/rolling/share/rviz_common/cmake)\n'}
+[20.860610] (-) TimerEvent: {}
+[20.960905] (-) TimerEvent: {}
+[21.053983] (rviz_visual_tools) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/rolling/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'\n"}
+[21.061044] (-) TimerEvent: {}
+[21.088351] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rviz_default_plugins: 15.1.7 (/opt/ros/rolling/share/rviz_default_plugins/cmake)\n'}
+[21.161202] (-) TimerEvent: {}
+[21.261552] (-) TimerEvent: {}
+[21.353775] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):\n'}
+[21.353977] (rviz_visual_tools) StderrLine: {'line': b'  ament_target_dependencies() is deprecated.  Use target_link_libraries()\n'}
+[21.354054] (rviz_visual_tools) StderrLine: {'line': b'  with modern CMake targets instead.  Try replacing this call with:\n'}
+[21.354124] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.354193] (rviz_visual_tools) StderrLine: {'line': b'    target_link_libraries(rviz_visual_tools_gui PUBLIC\n'}
+[21.354259] (rviz_visual_tools) StderrLine: {'line': b'      rclcpp::rclcpp\n'}
+[21.354361] (rviz_visual_tools) StderrLine: {'line': b'      rviz_common::rviz_common\n'}
+[21.354432] (rviz_visual_tools) StderrLine: {'line': b'      rviz_default_plugins::rviz_default_plugins\n'}
+[21.354498] (rviz_visual_tools) StderrLine: {'line': b'      rviz_rendering::rviz_rendering\n'}
+[21.354562] (rviz_visual_tools) StderrLine: {'line': b'    )\n'}
+[21.354627] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.354692] (rviz_visual_tools) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[21.354757] (rviz_visual_tools) StderrLine: {'line': b'  CMakeLists.txt:80 (ament_target_dependencies)\n'}
+[21.354822] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.354887] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0m\n'}
+[21.361701] (-) TimerEvent: {}
+[21.368075] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):\n'}
+[21.368207] (rviz_visual_tools) StderrLine: {'line': b'  ament_target_dependencies() is deprecated.  Use target_link_libraries()\n'}
+[21.368322] (rviz_visual_tools) StderrLine: {'line': b'  with modern CMake targets instead.  Try replacing this call with:\n'}
+[21.368409] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.368478] (rviz_visual_tools) StderrLine: {'line': b'    target_link_libraries(rviz_visual_tools_remote_control PUBLIC\n'}
+[21.368546] (rviz_visual_tools) StderrLine: {'line': b'      ${sensor_msgs_TARGETS}\n'}
+[21.368612] (rviz_visual_tools) StderrLine: {'line': b'      ${shape_msgs_TARGETS}\n'}
+[21.368676] (rviz_visual_tools) StderrLine: {'line': b'      ${std_msgs_TARGETS}\n'}
+[21.368739] (rviz_visual_tools) StderrLine: {'line': b'      ${trajectory_msgs_TARGETS}\n'}
+[21.368802] (rviz_visual_tools) StderrLine: {'line': b'      ${visualization_msgs_TARGETS}\n'}
+[21.368865] (rviz_visual_tools) StderrLine: {'line': b'      eigen_stl_containers::eigen_stl_containers\n'}
+[21.368929] (rviz_visual_tools) StderrLine: {'line': b'      rclcpp::rclcpp\n'}
+[21.369000] (rviz_visual_tools) StderrLine: {'line': b'      rclcpp_components::component\n'}
+[21.369064] (rviz_visual_tools) StderrLine: {'line': b'      rclcpp_components::component_manager\n'}
+[21.369128] (rviz_visual_tools) StderrLine: {'line': b'      sensor_msgs::sensor_msgs_library\n'}
+[21.369192] (rviz_visual_tools) StderrLine: {'line': b'      tf2::tf2\n'}
+[21.369256] (rviz_visual_tools) StderrLine: {'line': b'      tf2_eigen::tf2_eigen\n'}
+[21.369338] (rviz_visual_tools) StderrLine: {'line': b'      tf2_geometry_msgs::tf2_geometry_msgs\n'}
+[21.369419] (rviz_visual_tools) StderrLine: {'line': b'    )\n'}
+[21.369485] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.369550] (rviz_visual_tools) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[21.369614] (rviz_visual_tools) StderrLine: {'line': b'  CMakeLists.txt:101 (ament_target_dependencies)\n'}
+[21.369678] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.369742] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0m\n'}
+[21.402991] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):\n'}
+[21.403154] (rviz_visual_tools) StderrLine: {'line': b'  ament_target_dependencies() is deprecated.  Use target_link_libraries()\n'}
+[21.403227] (rviz_visual_tools) StderrLine: {'line': b'  with modern CMake targets instead.  Try replacing this call with:\n'}
+[21.403327] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.403420] (rviz_visual_tools) StderrLine: {'line': b'    target_link_libraries(rviz_visual_tools PUBLIC\n'}
+[21.403488] (rviz_visual_tools) StderrLine: {'line': b'      \n'}
+[21.403553] (rviz_visual_tools) StderrLine: {'line': b'    )\n'}
+[21.403615] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.403738] (rviz_visual_tools) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[21.403833] (rviz_visual_tools) StderrLine: {'line': b'  CMakeLists.txt:121 (ament_target_dependencies)\n'}
+[21.403899] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.403963] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0m\n'}
+[21.408433] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):\n'}
+[21.408552] (rviz_visual_tools) StderrLine: {'line': b'  ament_target_dependencies() is deprecated.  Use target_link_libraries()\n'}
+[21.408641] (rviz_visual_tools) StderrLine: {'line': b'  with modern CMake targets instead.  Try replacing this call with:\n'}
+[21.408721] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.408786] (rviz_visual_tools) StderrLine: {'line': b'    target_link_libraries(rviz_visual_tools PUBLIC\n'}
+[21.408850] (rviz_visual_tools) StderrLine: {'line': b'      ${sensor_msgs_TARGETS}\n'}
+[21.408912] (rviz_visual_tools) StderrLine: {'line': b'      ${shape_msgs_TARGETS}\n'}
+[21.408974] (rviz_visual_tools) StderrLine: {'line': b'      ${std_msgs_TARGETS}\n'}
+[21.409035] (rviz_visual_tools) StderrLine: {'line': b'      ${trajectory_msgs_TARGETS}\n'}
+[21.409097] (rviz_visual_tools) StderrLine: {'line': b'      ${visualization_msgs_TARGETS}\n'}
+[21.409158] (rviz_visual_tools) StderrLine: {'line': b'      eigen_stl_containers::eigen_stl_containers\n'}
+[21.409220] (rviz_visual_tools) StderrLine: {'line': b'      rclcpp::rclcpp\n'}
+[21.409282] (rviz_visual_tools) StderrLine: {'line': b'      rclcpp_components::component\n'}
+[21.409403] (rviz_visual_tools) StderrLine: {'line': b'      rclcpp_components::component_manager\n'}
+[21.409469] (rviz_visual_tools) StderrLine: {'line': b'      sensor_msgs::sensor_msgs_library\n'}
+[21.409532] (rviz_visual_tools) StderrLine: {'line': b'      tf2::tf2\n'}
+[21.409595] (rviz_visual_tools) StderrLine: {'line': b'      tf2_eigen::tf2_eigen\n'}
+[21.409657] (rviz_visual_tools) StderrLine: {'line': b'      tf2_geometry_msgs::tf2_geometry_msgs\n'}
+[21.409719] (rviz_visual_tools) StderrLine: {'line': b'    )\n'}
+[21.409793] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.409856] (rviz_visual_tools) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[21.409918] (rviz_visual_tools) StderrLine: {'line': b'  CMakeLists.txt:125 (ament_target_dependencies)\n'}
+[21.409980] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.410042] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0m\n'}
+[21.443962] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):\n'}
+[21.444096] (rviz_visual_tools) StderrLine: {'line': b'  ament_target_dependencies() is deprecated.  Use target_link_libraries()\n'}
+[21.444169] (rviz_visual_tools) StderrLine: {'line': b'  with modern CMake targets instead.  Try replacing this call with:\n'}
+[21.444233] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.444298] (rviz_visual_tools) StderrLine: {'line': b'    target_link_libraries(rviz_visual_tools_imarker_simple PUBLIC\n'}
+[21.444458] (rviz_visual_tools) StderrLine: {'line': b'      ${geometry_msgs_TARGETS}\n'}
+[21.444583] (rviz_visual_tools) StderrLine: {'line': b'      ${sensor_msgs_TARGETS}\n'}
+[21.444705] (rviz_visual_tools) StderrLine: {'line': b'      ${visualization_msgs_TARGETS}\n'}
+[21.444828] (rviz_visual_tools) StderrLine: {'line': b'      eigen_stl_containers::eigen_stl_containers\n'}
+[21.444963] (rviz_visual_tools) StderrLine: {'line': b'      interactive_markers::interactive_markers\n'}
+[21.445085] (rviz_visual_tools) StderrLine: {'line': b'      rclcpp::rclcpp\n'}
+[21.445207] (rviz_visual_tools) StderrLine: {'line': b'      sensor_msgs::sensor_msgs_library\n'}
+[21.445380] (rviz_visual_tools) StderrLine: {'line': b'    )\n'}
+[21.445541] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.445666] (rviz_visual_tools) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[21.445789] (rviz_visual_tools) StderrLine: {'line': b'  CMakeLists.txt:147 (ament_target_dependencies)\n'}
+[21.445910] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.446032] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0m\n'}
+[21.461841] (-) TimerEvent: {}
+[21.467506] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):\n'}
+[21.467660] (rviz_visual_tools) StderrLine: {'line': b'  ament_target_dependencies() is deprecated.  Use target_link_libraries()\n'}
+[21.467790] (rviz_visual_tools) StderrLine: {'line': b'  with modern CMake targets instead.  Try replacing this call with:\n'}
+[21.467866] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.467936] (rviz_visual_tools) StderrLine: {'line': b'    target_link_libraries(rviz_visual_tools_demo PUBLIC\n'}
+[21.468006] (rviz_visual_tools) StderrLine: {'line': b'      ${geometry_msgs_TARGETS}\n'}
+[21.468073] (rviz_visual_tools) StderrLine: {'line': b'      ${std_msgs_TARGETS}\n'}
+[21.468139] (rviz_visual_tools) StderrLine: {'line': b'      rclcpp::rclcpp\n'}
+[21.468204] (rviz_visual_tools) StderrLine: {'line': b'    )\n'}
+[21.468268] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.468357] (rviz_visual_tools) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[21.468431] (rviz_visual_tools) StderrLine: {'line': b'  CMakeLists.txt:165 (ament_target_dependencies)\n'}
+[21.468497] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.468572] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0m\n'}
+[21.477624] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):\n'}
+[21.477799] (rviz_visual_tools) StderrLine: {'line': b'  ament_target_dependencies() is deprecated.  Use target_link_libraries()\n'}
+[21.477903] (rviz_visual_tools) StderrLine: {'line': b'  with modern CMake targets instead.  Try replacing this call with:\n'}
+[21.477975] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.478044] (rviz_visual_tools) StderrLine: {'line': b'    target_link_libraries(rviz_visual_tools_imarker_simple_demo PUBLIC\n'}
+[21.478118] (rviz_visual_tools) StderrLine: {'line': b'      rclcpp::rclcpp\n'}
+[21.478183] (rviz_visual_tools) StderrLine: {'line': b'    )\n'}
+[21.478247] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.478311] (rviz_visual_tools) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[21.478411] (rviz_visual_tools) StderrLine: {'line': b'  CMakeLists.txt:178 (ament_target_dependencies)\n'}
+[21.478479] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.478544] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0m\n'}
+[21.496079] (rviz_visual_tools) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.8.4 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)\n'}
+[21.509537] (rviz_visual_tools) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[21.513857] (rviz_visual_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[21.562007] (-) TimerEvent: {}
+[21.662331] (-) TimerEvent: {}
+[21.762624] (-) TimerEvent: {}
+[21.804261] (rviz_visual_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[21.805726] (rviz_visual_tools) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[21.806669] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):\n'}
+[21.806791] (rviz_visual_tools) StderrLine: {'line': b'  ament_target_dependencies() is deprecated.  Use target_link_libraries()\n'}
+[21.806867] (rviz_visual_tools) StderrLine: {'line': b'  with modern CMake targets instead.  Try replacing this call with:\n'}
+[21.806938] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.807006] (rviz_visual_tools) StderrLine: {'line': b'    target_link_libraries(rviz_visual_tools_rvt_test PUBLIC\n'}
+[21.807072] (rviz_visual_tools) StderrLine: {'line': b'      rclcpp::rclcpp\n'}
+[21.807136] (rviz_visual_tools) StderrLine: {'line': b'    )\n'}
+[21.807200] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.807263] (rviz_visual_tools) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[21.807364] (rviz_visual_tools) StderrLine: {'line': b'  CMakeLists.txt:251 (ament_target_dependencies)\n'}
+[21.807434] (rviz_visual_tools) StderrLine: {'line': b'\n'}
+[21.807499] (rviz_visual_tools) StderrLine: {'line': b'\x1b[0m\n'}
+[21.862795] (-) TimerEvent: {}
+[21.924554] (rviz_visual_tools) StdoutLine: {'line': b'-- Configuring done (21.9s)\n'}
+[21.962955] (-) TimerEvent: {}
+[22.063298] (-) TimerEvent: {}
+[22.081062] (rviz_visual_tools) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[22.106881] (rviz_visual_tools) StdoutLine: {'line': b'-- Build files have been written to: /home/fabian/moveit2/build/rviz_visual_tools\n'}
+[22.130831] (rviz_visual_tools) CommandEnded: {'returncode': 0}
+[22.131890] (rviz_visual_tools) JobProgress: {'identifier': 'rviz_visual_tools', 'progress': 'build'}
+[22.133071] (rviz_visual_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fabian/moveit2/build/rviz_visual_tools', '--', '-j7', '-l7'], 'cwd': '/home/fabian/moveit2/build/rviz_visual_tools', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/rolling/share', 'USER': 'fabian', 'GZ_CONFIG_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/share/gz:/opt/ros/rolling/opt/sdformat_vendor/share/gz:/opt/ros/rolling/opt/gz_gui_vendor/share/gz:/opt/ros/rolling/opt/gz_transport_vendor/share/gz:/opt/ros/rolling/opt/gz_rendering_vendor/share/gz:/opt/ros/rolling/opt/gz_plugin_vendor/share/gz:/opt/ros/rolling/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/rolling/opt/gz_msgs_vendor/share/gz:/opt/ros/rolling/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/fabian/cartesian_controllers/install/cartesian_controller_tests/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fabian/moveit2/install/rviz_marker_tools/lib:/home/fabian/moveit2/install/moveit_msgs/lib:/home/fabian/moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/fabian/moveit2/install/pilz_industrial_motion_planner/lib:/home/fabian/moveit2/install/moveit_ros_control_interface/lib:/home/fabian/moveit2/install/moveit_simple_controller_manager/lib:/home/fabian/moveit2/install/moveit_setup_assistant/lib:/home/fabian/moveit2/install/moveit_setup_srdf_plugins/lib:/home/fabian/moveit2/install/moveit_setup_core_plugins/lib:/home/fabian/moveit2/install/moveit_setup_controllers/lib:/home/fabian/moveit2/install/moveit_setup_app_plugins/lib:/home/fabian/moveit2/install/moveit_setup_framework/lib:/home/fabian/moveit2/install/moveit_servo/lib:/home/fabian/moveit2/install/moveit_ros_trajectory_cache/lib:/home/fabian/moveit2/install/moveit_ros_visualization/lib:/home/fabian/moveit2/install/moveit_py/lib:/home/fabian/moveit2/install/moveit_hybrid_planning/lib:/home/fabian/moveit2/install/moveit_ros_planning_interface/lib:/home/fabian/moveit2/install/moveit_ros_benchmarks/lib:/home/fabian/moveit2/install/moveit_ros_warehouse/lib:/home/fabian/moveit2/install/moveit_ros_robot_interaction/lib:/home/fabian/moveit2/install/moveit_ros_perception/lib:/home/fabian/moveit2/install/moveit_ros_move_group/lib:/home/fabian/moveit2/install/moveit_planners_ompl/lib:/home/fabian/moveit2/install/moveit_kinematics/lib:/home/fabian/moveit2/install/moveit_ros_planning/lib:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/fabian/moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/fabian/moveit2/install/moveit_planners_stomp/lib:/home/fabian/moveit2/install/moveit_planners_chomp/lib:/home/fabian/moveit2/install/chomp_motion_planner/lib:/home/fabian/moveit2/install/moveit_core/lib:/home/fabian/yb_support/ros_odrive/install/odrive_ros2_control/lib:/home/fabian/yb_support/ros_odrive/install/odrive_can/lib:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox/lib:/home/fabian/yb_support/my_msgs/install/my_msgs/lib:/home/fabian/yb_support/pointcloud_to_laserscan/install/pointcloud_to_laserscan/lib:/home/fabian/yb_support/mecanum_drive_controller/install/mecanum_drive_controller/lib:/home/fabian/ros2_ws/install/ros2_control_demo_example_2/lib:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs/lib:/home/fabian/yahboom_rosmaster/install/mecanum_drive_controller/lib:/home/fabian/cartesian_controllers/install/cartesian_compliance_controller/lib:/home/fabian/cartesian_controllers/install/cartesian_motion_controller/lib:/home/fabian/cartesian_controllers/install/cartesian_force_controller/lib:/home/fabian/cartesian_controllers/install/cartesian_controller_simulation/lib:/home/fabian/cartesian_controllers/install/cartesian_controller_handles/lib:/home/fabian/cartesian_controllers/install/cartesian_controller_base/lib:/home/fabian/ros2_control_demos/example_7/install/ros2_control_demo_example_7/lib:/home/fabian/fixslam/install/geometry_msgs/lib:/home/fabian/fixslam/install/std_msgs/lib:/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_sim_vendor/lib:/opt/ros/rolling/opt/gz_sensors_vendor/lib:/opt/ros/rolling/opt/gz_physics_vendor/lib:/opt/ros/rolling/opt/sdformat_vendor/lib:/opt/ros/rolling/opt/gz_gui_vendor/lib:/opt/ros/rolling/opt/gz_transport_vendor/lib:/opt/ros/rolling/opt/gz_rendering_vendor/lib:/opt/ros/rolling/opt/gz_plugin_vendor/lib:/opt/ros/rolling/opt/gz_fuel_tools_vendor/lib:/opt/ros/rolling/opt/gz_msgs_vendor/lib:/opt/ros/rolling/opt/gz_common_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_tools_vendor/lib:/opt/ros/rolling/opt/gz_ogre_next_vendor/lib:/opt/ros/rolling/opt/gz_dartsim_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/fabian', 'OLDPWD': '/home/fabian', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fabian/moveit2/install:/home/fabian/yb_support/my_msgs/install:/home/fabian/youbot_ws/install:/home/fabian/ros2_ws/install:/home/fabian/yahboom_rosmaster/install:/home/fabian/cartesian_controllers/install:/home/fabian/ros2_control_demos/example_7/install:/home/fabian/yb_support/urdf_parser_py/install:/home/fabian/yb_support/kdl_parser_py/install:/home/fabian/yb_support/slam_toolbox/install:/home/fabian/yb_support/twist_stamper/install:/home/fabian/yb_support/pointcloud_to_laserscan/install:/home/fabian/yb_support/mecanum_drive_controller/install:/home/fabian/yb_support/unilidar_sdk2/install:/home/fabian/yb_support/ros_odrive/install:/home/fabian/fixslam/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'fabian', 'NAME': 'DESKTOP-579AJL8', 'WSL_INTEROP': '/run/WSL/540_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/fabian/cartesian_controllers/install/cartesian_controller_tests/lib/x86_64-linux-gnu/pkgconfig:/home/fabian/cartesian_controllers/install/cartesian_controller_tests/lib/pkgconfig', 'TERM': 'xterm-256color', 'PATH': '/home/fabian/moveit2/install/moveit_core/bin:/opt/ros/rolling/opt/gz_msgs_vendor/bin:/opt/ros/rolling/opt/gz_tools_vendor/bin:/opt/ros/rolling/opt/gz_ogre_next_vendor/bin:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2404.1.68.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Beckhoff/TwinCAT/Common64/:/mnt/c/Program Files (x86)/Beckhoff/TwinCAT/Common32/:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/ProgramData/Beckhoff/TcPkg/:/mnt/c/Program Files (x86)/AOMEI/AOMEI Backupper/7.4.1:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/MinGW/bin:/mnt/c/MinGW/mingw32/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/OpenSSL-Win64/bin/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/opencv/x64/vc15/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ros/jazzy/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/e/xmllint/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files (x86)/Windows Kits/10:/mnt/c/Users/fabia/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/fabian/moveit2/install/rviz_marker_tools:/home/fabian/moveit2/install/moveit_resources:/home/fabian/moveit2/install/moveit_resources_pr2_description:/home/fabian/moveit2/install/moveit_resources_panda_moveit_config:/home/fabian/moveit2/install/dual_arm_panda_moveit_config:/home/fabian/moveit2/install/moveit_resources_panda_description:/home/fabian/moveit2/install/moveit_resources_fanuc_moveit_config:/home/fabian/moveit2/install/moveit_resources_fanuc_description:/home/fabian/moveit2/install/moveit_msgs:/home/fabian/moveit2/install/pilz_industrial_motion_planner_testutils:/home/fabian/moveit2/install/moveit_runtime:/home/fabian/moveit2/install/moveit:/home/fabian/moveit2/install/moveit_planners:/home/fabian/moveit2/install/pilz_industrial_motion_planner:/home/fabian/moveit2/install/moveit_ros_control_interface:/home/fabian/moveit2/install/moveit_plugins:/home/fabian/moveit2/install/moveit_simple_controller_manager:/home/fabian/moveit2/install/moveit_setup_assistant:/home/fabian/moveit2/install/moveit_setup_srdf_plugins:/home/fabian/moveit2/install/moveit_setup_core_plugins:/home/fabian/moveit2/install/moveit_setup_controllers:/home/fabian/moveit2/install/moveit_setup_app_plugins:/home/fabian/moveit2/install/moveit_setup_framework:/home/fabian/moveit2/install/moveit_servo:/home/fabian/moveit2/install/moveit_ros_trajectory_cache:/home/fabian/moveit2/install/moveit_ros:/home/fabian/moveit2/install/moveit_ros_visualization:/home/fabian/moveit2/install/moveit_py:/home/fabian/moveit2/install/moveit_hybrid_planning:/home/fabian/moveit2/install/moveit_ros_planning_interface:/home/fabian/moveit2/install/moveit_ros_benchmarks:/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_robot_interaction:/home/fabian/moveit2/install/moveit_ros_perception:/home/fabian/moveit2/install/moveit_resources_prbt_pg70_support:/home/fabian/moveit2/install/moveit_resources_prbt_moveit_config:/home/fabian/moveit2/install/moveit_ros_move_group:/home/fabian/moveit2/install/moveit_planners_ompl:/home/fabian/moveit2/install/moveit_kinematics:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_resources_prbt_support:/home/fabian/moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fabian/moveit2/install/moveit_planners_stomp:/home/fabian/moveit2/install/moveit_planners_chomp:/home/fabian/moveit2/install/chomp_motion_planner:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_configs_utils:/home/fabian/moveit2/install/moveit_common:/home/fabian/yb_support/ros_odrive/install/odrive_ros2_control:/home/fabian/yb_support/ros_odrive/install/odrive_can:/home/fabian/youbot_ws/install/youbot:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox:/home/fabian/yb_support/my_msgs/install/my_msgs:/home/fabian/yb_support/urdf_parser_py/install/urdfdom_py:/home/fabian/yb_support/twist_stamper/install/twist_stamper:/home/fabian/yb_support/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/fabian/yb_support/mecanum_drive_controller/install/mecanum_drive_controller:/home/fabian/ros2_ws/install/ros2_control_demo_example_2:/home/fabian/ros2_ws/install/ros2_control_demo_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_system_tests:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_navigation:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_localization:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_gazebo:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_docking:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_bringup:/home/fabian/yahboom_rosmaster/install/mecanum_drive_controller:/home/fabian/cartesian_controllers/install/cartesian_compliance_controller:/home/fabian/cartesian_controllers/install/cartesian_motion_controller:/home/fabian/cartesian_controllers/install/cartesian_force_controller:/home/fabian/cartesian_controllers/install/cartesian_controller_utilities:/home/fabian/cartesian_controllers/install/cartesian_controller_simulation:/home/fabian/cartesian_controllers/install/cartesian_controller_handles:/home/fabian/cartesian_controllers/install/cartesian_controller_base:/home/fabian/ros2_control_demos/example_7/install/ros2_control_demo_example_7:/home/fabian/yb_support/unilidar_sdk2/install/unitree_lidar_ros2:/home/fabian/yb_support/kdl_parser_py/install/kdl_parser_py:/home/fabian/fixslam/install/geometry_msgs:/home/fabian/fixslam/install/std_msgs:/opt/ros/rolling', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/fabian/moveit2/build/rviz_visual_tools', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fabian/moveit2/install/moveit_msgs/lib/python3.12/site-packages:/home/fabian/moveit2/install/moveit_py/lib/python3.12/site-packages:/home/fabian/moveit2/install/moveit_configs_utils/lib/python3.12/site-packages:/home/fabian/yb_support/ros_odrive/install/odrive_can/lib/python3.12/site-packages:/home/fabian/youbot_ws/build/youbot:/home/fabian/youbot_ws/install/youbot/lib/python3.12/site-packages:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox/lib/python3.12/site-packages:/home/fabian/yb_support/my_msgs/install/my_msgs/lib/python3.12/site-packages:/home/fabian/yb_support/urdf_parser_py/build/urdfdom_py/src:/home/fabian/yb_support/urdf_parser_py/install/urdfdom_py/lib/python3.12/site-packages:/home/fabian/yb_support/twist_stamper/build/twist_stamper:/home/fabian/yb_support/twist_stamper/install/twist_stamper/lib/python3.12/site-packages:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages:/home/fabian/yb_support/kdl_parser_py/build/kdl_parser_py:/home/fabian/yb_support/kdl_parser_py/install/kdl_parser_py/lib/python3.12/site-packages:/home/fabian/fixslam/install/geometry_msgs/lib/python3.12/site-packages:/home/fabian/fixslam/install/std_msgs/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/fabian/moveit2/install/rviz_marker_tools:/home/fabian/moveit2/install/moveit_resources:/home/fabian/moveit2/install/moveit_resources_pr2_description:/home/fabian/moveit2/install/moveit_resources_panda_moveit_config:/home/fabian/moveit2/install/dual_arm_panda_moveit_config:/home/fabian/moveit2/install/moveit_resources_panda_description:/home/fabian/moveit2/install/moveit_resources_fanuc_moveit_config:/home/fabian/moveit2/install/moveit_resources_fanuc_description:/home/fabian/moveit2/install/moveit_msgs:/home/fabian/moveit2/install/pilz_industrial_motion_planner_testutils:/home/fabian/moveit2/install/moveit_runtime:/home/fabian/moveit2/install/moveit:/home/fabian/moveit2/install/moveit_planners:/home/fabian/moveit2/install/pilz_industrial_motion_planner:/home/fabian/moveit2/install/moveit_ros_control_interface:/home/fabian/moveit2/install/moveit_plugins:/home/fabian/moveit2/install/moveit_simple_controller_manager:/home/fabian/moveit2/install/moveit_setup_assistant:/home/fabian/moveit2/install/moveit_setup_srdf_plugins:/home/fabian/moveit2/install/moveit_setup_core_plugins:/home/fabian/moveit2/install/moveit_setup_controllers:/home/fabian/moveit2/install/moveit_setup_app_plugins:/home/fabian/moveit2/install/moveit_setup_framework:/home/fabian/moveit2/install/moveit_servo:/home/fabian/moveit2/install/moveit_ros_trajectory_cache:/home/fabian/moveit2/install/moveit_ros:/home/fabian/moveit2/install/moveit_ros_visualization:/home/fabian/moveit2/install/moveit_py:/home/fabian/moveit2/install/moveit_hybrid_planning:/home/fabian/moveit2/install/moveit_ros_planning_interface:/home/fabian/moveit2/install/moveit_ros_benchmarks:/home/fabian/moveit2/install/moveit_ros_warehouse:/home/fabian/moveit2/install/moveit_ros_robot_interaction:/home/fabian/moveit2/install/moveit_ros_perception:/home/fabian/moveit2/install/moveit_resources_prbt_pg70_support:/home/fabian/moveit2/install/moveit_resources_prbt_moveit_config:/home/fabian/moveit2/install/moveit_ros_move_group:/home/fabian/moveit2/install/moveit_planners_ompl:/home/fabian/moveit2/install/moveit_kinematics:/home/fabian/moveit2/install/moveit_ros_planning:/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor:/home/fabian/moveit2/install/moveit_resources_prbt_support:/home/fabian/moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fabian/moveit2/install/moveit_planners_stomp:/home/fabian/moveit2/install/moveit_planners_chomp:/home/fabian/moveit2/install/chomp_motion_planner:/home/fabian/moveit2/install/moveit_core:/home/fabian/moveit2/install/moveit_common:/home/fabian/yb_support/ros_odrive/install/odrive_ros2_control:/home/fabian/yb_support/ros_odrive/install/odrive_can:/home/fabian/yb_support/slam_toolbox/install/slam_toolbox:/home/fabian/yb_support/my_msgs/install/my_msgs:/home/fabian/yb_support/pointcloud_to_laserscan/install/pointcloud_to_laserscan:/home/fabian/yb_support/mecanum_drive_controller/install/mecanum_drive_controller:/home/fabian/ros2_ws/install/ros2_control_demo_example_2:/home/fabian/ros2_ws/install/ros2_control_demo_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_system_tests:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_navigation:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_msgs:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_localization:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_gazebo:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_docking:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_description:/home/fabian/yahboom_rosmaster/install/yahboom_rosmaster_bringup:/home/fabian/yahboom_rosmaster/install/mecanum_drive_controller:/home/fabian/cartesian_controllers/install/cartesian_compliance_controller:/home/fabian/cartesian_controllers/install/cartesian_motion_controller:/home/fabian/cartesian_controllers/install/cartesian_force_controller:/home/fabian/cartesian_controllers/install/cartesian_controller_utilities:/home/fabian/moveit2/install/moveit_configs_utils:/home/fabian/youbot_ws/install/youbot:/home/fabian/yb_support/urdf_parser_py/install/urdfdom_py:/home/fabian/yb_support/twist_stamper/install/twist_stamper:/home/fabian/yb_support/kdl_parser_py/install/kdl_parser_py:/opt/ros/rolling:/home/fabian/cartesian_controllers/install/cartesian_controller_tests:/home/fabian/cartesian_controllers/install/cartesian_controller_simulation:/home/fabian/cartesian_controllers/install/cartesian_controller_handles:/home/fabian/cartesian_controllers/install/cartesian_controller_base:/home/fabian/ros2_control_demos/example_7/install/ros2_control_demo_example_7:/home/fabian/yb_support/unilidar_sdk2/install/unitree_lidar_ros2:/home/fabian/fixslam/install/geometry_msgs:/home/fabian/fixslam/install/std_msgs:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor', 'WSLENV': ''}), 'shell': False}
+[22.163528] (-) TimerEvent: {}
+[22.263888] (-) TimerEvent: {}
+[22.278980] (rviz_visual_tools) StdoutLine: {'line': b'[  0%] Built target rviz_visual_tools_gui_autogen_timestamp_deps\n'}
+[22.279603] (rviz_visual_tools) StdoutLine: {'line': b'[  0%] Built target gtest_autogen_timestamp_deps\n'}
+[22.280948] (rviz_visual_tools) StdoutLine: {'line': b'[  0%] Built target rviz_visual_tools_remote_control_autogen_timestamp_deps\n'}
+[22.281695] (rviz_visual_tools) StdoutLine: {'line': b'[  0%] Built target gtest_main_autogen_timestamp_deps\n'}
+[22.335808] (rviz_visual_tools) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools_remote_control\x1b[0m\n'}
+[22.336837] (rviz_visual_tools) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mAutomatic MOC for target gtest\x1b[0m\n'}
+[22.339386] (rviz_visual_tools) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools_gui\x1b[0m\n'}
+[22.341085] (rviz_visual_tools) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mAutomatic MOC for target gtest_main\x1b[0m\n'}
+[22.364021] (-) TimerEvent: {}
+[22.417048] (rviz_visual_tools) StdoutLine: {'line': b'[  8%] Built target rviz_visual_tools_remote_control_autogen\n'}
+[22.423430] (rviz_visual_tools) StdoutLine: {'line': b'[  8%] Built target gtest_main_autogen\n'}
+[22.424824] (rviz_visual_tools) StdoutLine: {'line': b'[  8%] Built target gtest_autogen\n'}
+[22.464164] (-) TimerEvent: {}
+[22.484181] (rviz_visual_tools) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[22.488141] (rviz_visual_tools) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[22.488403] (rviz_visual_tools) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[22.499591] (rviz_visual_tools) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[22.507651] (rviz_visual_tools) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/src/remote_control.cpp.o\x1b[0m\n'}
+[22.511854] (rviz_visual_tools) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/rviz_visual_tools_remote_control_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[22.564295] (-) TimerEvent: {}
+[22.667736] (-) TimerEvent: {}
+[22.768073] (-) TimerEvent: {}
+[22.868416] (-) TimerEvent: {}
+[22.877157] (rviz_visual_tools) StdoutLine: {'line': b'[ 20%] Built target rviz_visual_tools_gui_autogen\n'}
+[22.970243] (-) TimerEvent: {}
+[22.972757] (rviz_visual_tools) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/rviz_visual_tools_gui.cpp.o\x1b[0m\n'}
+[22.973056] (rviz_visual_tools) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/rviz_visual_tools_gui_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[22.975062] (rviz_visual_tools) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/remote_control.cpp.o\x1b[0m\n'}
+[22.981109] (rviz_visual_tools) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o\x1b[0m\n'}
+[23.074560] (-) TimerEvent: {}
+[23.174941] (-) TimerEvent: {}
+[23.275806] (-) TimerEvent: {}
+[23.376161] (-) TimerEvent: {}
+[23.476531] (-) TimerEvent: {}
+[23.576898] (-) TimerEvent: {}
+[23.619013] (rviz_visual_tools) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[23.677017] (-) TimerEvent: {}
+[23.739969] (rviz_visual_tools) StdoutLine: {'line': b'[ 33%] Built target gtest_main\n'}
+[23.777141] (-) TimerEvent: {}
+[23.879932] (-) TimerEvent: {}
+[23.980313] (-) TimerEvent: {}
+[24.080694] (-) TimerEvent: {}
+[24.181118] (-) TimerEvent: {}
+[24.281523] (-) TimerEvent: {}
+[24.382012] (-) TimerEvent: {}
+[24.483800] (-) TimerEvent: {}
+[24.584130] (-) TimerEvent: {}
+[24.685959] (-) TimerEvent: {}
+[24.786391] (-) TimerEvent: {}
+[24.886945] (-) TimerEvent: {}
+[24.987425] (-) TimerEvent: {}
+[25.087999] (-) TimerEvent: {}
+[25.188424] (-) TimerEvent: {}
+[25.288897] (-) TimerEvent: {}
+[25.389383] (-) TimerEvent: {}
+[25.489750] (-) TimerEvent: {}
+[25.591925] (-) TimerEvent: {}
+[25.693851] (-) TimerEvent: {}
+[25.795847] (-) TimerEvent: {}
+[25.896278] (-) TimerEvent: {}
+[26.000547] (-) TimerEvent: {}
+[26.101048] (-) TimerEvent: {}
+[26.202748] (-) TimerEvent: {}
+[26.303267] (-) TimerEvent: {}
+[26.403797] (-) TimerEvent: {}
+[26.504153] (-) TimerEvent: {}
+[26.604693] (-) TimerEvent: {}
+[26.705159] (-) TimerEvent: {}
+[26.805748] (-) TimerEvent: {}
+[26.906300] (-) TimerEvent: {}
+[27.006785] (-) TimerEvent: {}
+[27.107329] (-) TimerEvent: {}
+[27.207793] (-) TimerEvent: {}
+[27.308328] (-) TimerEvent: {}
+[27.408782] (-) TimerEvent: {}
+[27.509305] (-) TimerEvent: {}
+[27.609750] (-) TimerEvent: {}
+[27.710233] (-) TimerEvent: {}
+[27.810625] (-) TimerEvent: {}
+[27.911161] (-) TimerEvent: {}
+[28.012103] (-) TimerEvent: {}
+[28.115773] (-) TimerEvent: {}
+[28.216354] (-) TimerEvent: {}
+[28.316811] (-) TimerEvent: {}
+[28.417306] (-) TimerEvent: {}
+[28.517757] (-) TimerEvent: {}
+[28.618281] (-) TimerEvent: {}
+[28.718753] (-) TimerEvent: {}
+[28.819259] (-) TimerEvent: {}
+[28.920731] (-) TimerEvent: {}
+[29.021156] (-) TimerEvent: {}
+[29.121814] (-) TimerEvent: {}
+[29.224162] (-) TimerEvent: {}
+[29.324644] (-) TimerEvent: {}
+[29.425196] (-) TimerEvent: {}
+[29.527777] (-) TimerEvent: {}
+[29.628130] (-) TimerEvent: {}
+[29.728666] (-) TimerEvent: {}
+[29.829879] (-) TimerEvent: {}
+[29.930335] (-) TimerEvent: {}
+[30.030745] (-) TimerEvent: {}
+[30.042911] (rviz_visual_tools) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[30.130918] (-) TimerEvent: {}
+[30.226484] (rviz_visual_tools) StdoutLine: {'line': b'[ 37%] Built target gtest\n'}
+[30.231143] (-) TimerEvent: {}
+[30.331598] (-) TimerEvent: {}
+[30.432067] (-) TimerEvent: {}
+[30.532466] (-) TimerEvent: {}
+[30.632913] (-) TimerEvent: {}
+[30.733499] (-) TimerEvent: {}
+[30.834021] (-) TimerEvent: {}
+[30.934508] (-) TimerEvent: {}
+[31.034939] (-) TimerEvent: {}
+[31.135369] (-) TimerEvent: {}
+[31.235868] (-) TimerEvent: {}
+[31.336375] (-) TimerEvent: {}
+[31.436865] (-) TimerEvent: {}
+[31.537366] (-) TimerEvent: {}
+[31.637873] (-) TimerEvent: {}
+[31.738293] (-) TimerEvent: {}
+[31.838716] (-) TimerEvent: {}
+[31.939193] (-) TimerEvent: {}
+[32.039655] (-) TimerEvent: {}
+[32.140241] (-) TimerEvent: {}
+[32.240721] (-) TimerEvent: {}
+[32.341237] (-) TimerEvent: {}
+[32.441722] (-) TimerEvent: {}
+[32.542224] (-) TimerEvent: {}
+[32.642700] (-) TimerEvent: {}
+[32.743184] (-) TimerEvent: {}
+[32.843657] (-) TimerEvent: {}
+[32.944115] (-) TimerEvent: {}
+[33.044598] (-) TimerEvent: {}
+[33.144980] (-) TimerEvent: {}
+[33.245406] (-) TimerEvent: {}
+[33.345892] (-) TimerEvent: {}
+[33.446292] (-) TimerEvent: {}
+[33.546751] (-) TimerEvent: {}
+[33.647092] (-) TimerEvent: {}
+[33.747412] (-) TimerEvent: {}
+[33.847737] (-) TimerEvent: {}
+[33.948045] (-) TimerEvent: {}
+[34.048370] (-) TimerEvent: {}
+[34.148702] (-) TimerEvent: {}
+[34.249041] (-) TimerEvent: {}
+[34.349411] (-) TimerEvent: {}
+[34.449747] (-) TimerEvent: {}
+[34.550127] (-) TimerEvent: {}
+[34.650524] (-) TimerEvent: {}
+[34.750879] (-) TimerEvent: {}
+[34.851213] (-) TimerEvent: {}
+[34.951606] (-) TimerEvent: {}
+[35.051987] (-) TimerEvent: {}
+[35.152330] (-) TimerEvent: {}
+[35.252721] (-) TimerEvent: {}
+[35.353090] (-) TimerEvent: {}
+[35.453438] (-) TimerEvent: {}
+[35.553861] (-) TimerEvent: {}
+[35.654196] (-) TimerEvent: {}
+[35.754494] (-) TimerEvent: {}
+[35.854811] (-) TimerEvent: {}
+[35.955134] (-) TimerEvent: {}
+[36.055516] (-) TimerEvent: {}
+[36.155940] (-) TimerEvent: {}
+[36.256272] (-) TimerEvent: {}
+[36.356616] (-) TimerEvent: {}
+[36.456974] (-) TimerEvent: {}
+[36.557335] (-) TimerEvent: {}
+[36.657670] (-) TimerEvent: {}
+[36.684710] (rviz_visual_tools) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library librviz_visual_tools_remote_control.so\x1b[0m\n'}
+[36.757805] (-) TimerEvent: {}
+[36.858139] (-) TimerEvent: {}
+[36.958493] (-) TimerEvent: {}
+[37.058868] (-) TimerEvent: {}
+[37.159235] (-) TimerEvent: {}
+[37.259636] (-) TimerEvent: {}
+[37.272308] (rviz_visual_tools) StdoutLine: {'line': b'[ 41%] Built target rviz_visual_tools_remote_control\n'}
+[37.327502] (rviz_visual_tools) StdoutLine: {'line': b'[ 41%] Built target rviz_visual_tools_autogen_timestamp_deps\n'}
+[37.359820] (-) TimerEvent: {}
+[37.380130] (rviz_visual_tools) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools\x1b[0m\n'}
+[37.454817] (rviz_visual_tools) StdoutLine: {'line': b'[ 43%] Built target rviz_visual_tools_autogen\n'}
+[37.459935] (-) TimerEvent: {}
+[37.525906] (rviz_visual_tools) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/tf_visual_tools.cpp.o\x1b[0m\n'}
+[37.526280] (rviz_visual_tools) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/rviz_visual_tools_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[37.526461] (rviz_visual_tools) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/rviz_visual_tools.cpp.o\x1b[0m\n'}
+[37.560066] (-) TimerEvent: {}
+[37.660393] (-) TimerEvent: {}
+[37.760715] (-) TimerEvent: {}
+[37.861084] (-) TimerEvent: {}
+[37.879544] (rviz_visual_tools) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library librviz_visual_tools_gui.so\x1b[0m\n'}
+[37.961209] (-) TimerEvent: {}
+[38.061544] (-) TimerEvent: {}
+[38.161900] (-) TimerEvent: {}
+[38.262264] (-) TimerEvent: {}
+[38.324467] (rviz_visual_tools) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fabian/moveit2/rviz_visual_tools/include/rviz_visual_tools/tf_visual_tools.hpp:48\x1b[m\x1b[K,\n'}
+[38.324709] (rviz_visual_tools) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fabian/moveit2/rviz_visual_tools/src/tf_visual_tools.cpp:33\x1b[m\x1b[K:\n'}
+[38.324821] (rviz_visual_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_broadcaster.h:41:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning TRANSFORM_BROADCASTER_HEADER_DEPRECATION [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[38.324937] (rviz_visual_tools) StderrLine: {'line': b'   41 |   #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K TRANSFORM_BROADCASTER_HEADER_DEPRECATION\n'}
+[38.325034] (rviz_visual_tools) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[38.362490] (-) TimerEvent: {}
+[38.375925] (rviz_visual_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fabian/moveit2/rviz_visual_tools/src/rviz_visual_tools.cpp:45:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktf2/convert.h: No such file or directory\n'}
+[38.376223] (rviz_visual_tools) StderrLine: {'line': b'   45 | #include \x1b[01;31m\x1b[K<tf2/convert.h>\x1b[m\x1b[K\n'}
+[38.376367] (rviz_visual_tools) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.376502] (rviz_visual_tools) StderrLine: {'line': b'compilation terminated.\n'}
+[38.389368] (rviz_visual_tools) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rviz_visual_tools.dir/build.make:96: CMakeFiles/rviz_visual_tools.dir/src/rviz_visual_tools.cpp.o] Error 1\n'}
+[38.389632] (rviz_visual_tools) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[38.444935] (rviz_visual_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fabian/moveit2/rviz_visual_tools/src/tf_visual_tools.cpp:42:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktf2/convert.h: No such file or directory\n'}
+[38.445207] (rviz_visual_tools) StderrLine: {'line': b'   42 | #include \x1b[01;31m\x1b[K<tf2/convert.h>\x1b[m\x1b[K\n'}
+[38.445359] (rviz_visual_tools) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.445464] (rviz_visual_tools) StderrLine: {'line': b'compilation terminated.\n'}
+[38.462681] (-) TimerEvent: {}
+[38.464195] (rviz_visual_tools) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rviz_visual_tools.dir/build.make:110: CMakeFiles/rviz_visual_tools.dir/src/tf_visual_tools.cpp.o] Error 1\n'}
+[38.464736] (rviz_visual_tools) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:241: CMakeFiles/rviz_visual_tools.dir/all] Error 2\n'}
+[38.464950] (rviz_visual_tools) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[38.562910] (-) TimerEvent: {}
+[38.663402] (-) TimerEvent: {}
+[38.763939] (-) TimerEvent: {}
+[38.864363] (-) TimerEvent: {}
+[38.964812] (-) TimerEvent: {}
+[39.065254] (-) TimerEvent: {}
+[39.165701] (-) TimerEvent: {}
+[39.266126] (-) TimerEvent: {}
+[39.366563] (-) TimerEvent: {}
+[39.467011] (-) TimerEvent: {}
+[39.567438] (-) TimerEvent: {}
+[39.667895] (-) TimerEvent: {}
+[39.768317] (-) TimerEvent: {}
+[39.868726] (-) TimerEvent: {}
+[39.969242] (-) TimerEvent: {}
+[40.069691] (-) TimerEvent: {}
+[40.170133] (-) TimerEvent: {}
+[40.270592] (-) TimerEvent: {}
+[40.371007] (-) TimerEvent: {}
+[40.471450] (-) TimerEvent: {}
+[40.571900] (-) TimerEvent: {}
+[40.672453] (-) TimerEvent: {}
+[40.772832] (-) TimerEvent: {}
+[40.873235] (-) TimerEvent: {}
+[40.972480] (rviz_visual_tools) StdoutLine: {'line': b'[ 54%] Built target rviz_visual_tools_gui\n'}
+[40.973365] (-) TimerEvent: {}
+[40.974137] (rviz_visual_tools) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[40.977422] (rviz_visual_tools) CommandEnded: {'returncode': 2}
+[40.987795] (rviz_visual_tools) JobEnded: {'identifier': 'rviz_visual_tools', 'rc': 2}
+[40.998504] (-) EventReactorShutdown: {}

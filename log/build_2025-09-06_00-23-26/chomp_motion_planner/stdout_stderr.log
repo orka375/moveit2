@@ -1,0 +1,112 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.14.0 (/home/fabian/moveit2/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0mchomp_motion_planner: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+-- Found moveit_core: 2.14.0 (/home/fabian/moveit2/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.5.0 (/opt/ros/rolling/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 5.0.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.0.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.9.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.2 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 30.1.0 (/opt/ros/rolling/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: random 
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(chomp_motion_planner PUBLIC
+      ${trajectory_msgs_TARGETS}
+      ${visualization_msgs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      rclcpp::rclcpp
+      rsl::rsl
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (ament_target_dependencies)
+
+[0m
+-- Configuring done (8.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/fabian/moveit2/build/chomp_motion_planner
+[ 16%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_cost.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_parameters.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_optimizer.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_planner.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libchomp_motion_planner.so[0m
+[100%] Built target chomp_motion_planner
+-- Install configuration: "Release"
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.14.0
+-- Set non-toolchain portion of runtime path of "/home/fabian/moveit2/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.14.0" to ""
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/lib/libchomp_motion_planner.so
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_motion_planner
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_motion_planner/chomp_optimizer.hpp
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_motion_planner/chomp_trajectory.hpp
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_motion_planner/chomp_cost.hpp
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_motion_planner/chomp_cost.h
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_motion_planner/chomp_parameters.hpp
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_motion_planner/chomp_utils.h
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_motion_planner/chomp_planner.h
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_motion_planner/chomp_trajectory.h
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_motion_planner/chomp_utils.hpp
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_motion_planner/chomp_optimizer.h
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_motion_planner/multivariate_gaussian.hpp
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_motion_planner/chomp_parameters.h
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_motion_planner/chomp_planner.hpp
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_motion_planner/multivariate_gaussian.h
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.sh
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.dsv
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/ament_index/resource_index/package_run_dependencies/chomp_motion_planner
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/ament_index/resource_index/parent_prefix_path/chomp_motion_planner
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.sh
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.dsv
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.sh
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.dsv
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.bash
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.sh
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.zsh
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.dsv
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/package.dsv
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/ament_index/resource_index/packages/chomp_motion_planner
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport.cmake
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport-release.cmake
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig.cmake
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig-version.cmake
+-- Installing: /home/fabian/moveit2/install/chomp_motion_planner/share/chomp_motion_planner/package.xml

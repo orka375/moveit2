@@ -1,0 +1,548 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.14.0 (/home/fabian/moveit2/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0mmoveit_ros_move_group: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_core: 2.14.0 (/home/fabian/moveit2/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.5.0 (/opt/ros/rolling/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 5.0.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.0.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.9.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.2 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 30.1.0 (/opt/ros/rolling/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: random 
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_occupancy_map_monitor: 2.14.0 (/home/fabian/moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake)
+-- Found moveit_ros_planning: 2.14.0 (/home/fabian/moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+-- Found std_srvs: 5.8.2 (/opt/ros/rolling/share/std_srvs/cmake)
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(moveit_move_group_capabilities_base PUBLIC
+      ${std_srvs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_occupancy_map_monitor::moveit_ros_occupancy_map_monitor
+      moveit_ros_planning::default_request_adapter_parameters
+      moveit_ros_planning::default_response_adapter_parameters
+      moveit_ros_planning::kinematics_parameters
+      moveit_ros_planning::moveit_collision_plugin_loader
+      moveit_ros_planning::moveit_constraint_sampler_manager_loader
+      moveit_ros_planning::moveit_cpp
+      moveit_ros_planning::moveit_kinematics_plugin_loader
+      moveit_ros_planning::moveit_plan_execution
+      moveit_ros_planning::moveit_planning_pipeline
+      moveit_ros_planning::moveit_planning_pipeline_interfaces
+      moveit_ros_planning::moveit_planning_scene_monitor
+      moveit_ros_planning::moveit_rdf_loader
+      moveit_ros_planning::moveit_robot_model_loader
+      moveit_ros_planning::moveit_trajectory_execution_manager
+      moveit_ros_planning::planning_pipeline_parameters
+      moveit_ros_planning::srdf_publisher_node
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      rclcpp_action::rclcpp_action
+      tf2::tf2
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:37 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(moveit_move_group_default_capabilities PUBLIC
+      ${std_srvs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_occupancy_map_monitor::moveit_ros_occupancy_map_monitor
+      moveit_ros_planning::default_request_adapter_parameters
+      moveit_ros_planning::default_response_adapter_parameters
+      moveit_ros_planning::kinematics_parameters
+      moveit_ros_planning::moveit_collision_plugin_loader
+      moveit_ros_planning::moveit_constraint_sampler_manager_loader
+      moveit_ros_planning::moveit_cpp
+      moveit_ros_planning::moveit_kinematics_plugin_loader
+      moveit_ros_planning::moveit_plan_execution
+      moveit_ros_planning::moveit_planning_pipeline
+      moveit_ros_planning::moveit_planning_pipeline_interfaces
+      moveit_ros_planning::moveit_planning_scene_monitor
+      moveit_ros_planning::moveit_rdf_loader
+      moveit_ros_planning::moveit_robot_model_loader
+      moveit_ros_planning::moveit_trajectory_execution_manager
+      moveit_ros_planning::planning_pipeline_parameters
+      moveit_ros_planning::srdf_publisher_node
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      rclcpp_action::rclcpp_action
+      tf2::tf2
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:63 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(move_group PUBLIC
+      ${std_srvs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_occupancy_map_monitor::moveit_ros_occupancy_map_monitor
+      moveit_ros_planning::default_request_adapter_parameters
+      moveit_ros_planning::default_response_adapter_parameters
+      moveit_ros_planning::kinematics_parameters
+      moveit_ros_planning::moveit_collision_plugin_loader
+      moveit_ros_planning::moveit_constraint_sampler_manager_loader
+      moveit_ros_planning::moveit_cpp
+      moveit_ros_planning::moveit_kinematics_plugin_loader
+      moveit_ros_planning::moveit_plan_execution
+      moveit_ros_planning::moveit_planning_pipeline
+      moveit_ros_planning::moveit_planning_pipeline_interfaces
+      moveit_ros_planning::moveit_planning_scene_monitor
+      moveit_ros_planning::moveit_rdf_loader
+      moveit_ros_planning::moveit_robot_model_loader
+      moveit_ros_planning::moveit_trajectory_execution_manager
+      moveit_ros_planning::planning_pipeline_parameters
+      moveit_ros_planning::srdf_publisher_node
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      rclcpp_action::rclcpp_action
+      tf2::tf2
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:70 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(list_move_group_capabilities PUBLIC
+      ${std_srvs_TARGETS}
+      moveit_core::moveit_collision_detection
+      moveit_core::moveit_collision_detection_bullet
+      moveit_core::moveit_collision_detection_fcl
+      moveit_core::moveit_collision_distance_field
+      moveit_core::moveit_constraint_samplers
+      moveit_core::moveit_distance_field
+      moveit_core::moveit_dynamics_solver
+      moveit_core::moveit_exceptions
+      moveit_core::moveit_kinematic_constraints
+      moveit_core::moveit_kinematics_base
+      moveit_core::moveit_kinematics_metrics
+      moveit_core::moveit_macros
+      moveit_core::moveit_planning_interface
+      moveit_core::moveit_planning_scene
+      moveit_core::moveit_robot_model
+      moveit_core::moveit_robot_state
+      moveit_core::moveit_robot_trajectory
+      moveit_core::moveit_smoothing_base
+      moveit_core::moveit_test_utils
+      moveit_core::moveit_trajectory_processing
+      moveit_core::moveit_transforms
+      moveit_core::moveit_utils
+      moveit_ros_occupancy_map_monitor::moveit_ros_occupancy_map_monitor
+      moveit_ros_planning::default_request_adapter_parameters
+      moveit_ros_planning::default_response_adapter_parameters
+      moveit_ros_planning::kinematics_parameters
+      moveit_ros_planning::moveit_collision_plugin_loader
+      moveit_ros_planning::moveit_constraint_sampler_manager_loader
+      moveit_ros_planning::moveit_cpp
+      moveit_ros_planning::moveit_kinematics_plugin_loader
+      moveit_ros_planning::moveit_plan_execution
+      moveit_ros_planning::moveit_planning_pipeline
+      moveit_ros_planning::moveit_planning_pipeline_interfaces
+      moveit_ros_planning::moveit_planning_scene_monitor
+      moveit_ros_planning::moveit_rdf_loader
+      moveit_ros_planning::moveit_robot_model_loader
+      moveit_ros_planning::moveit_trajectory_execution_manager
+      moveit_ros_planning::planning_pipeline_parameters
+      moveit_ros_planning::srdf_publisher_node
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+      rclcpp_action::rclcpp_action
+      tf2::tf2
+      tf2_geometry_msgs::tf2_geometry_msgs
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:74 (ament_target_dependencies)
+
+[0m
+-- Configuring done (18.8s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/fabian/moveit2/build/moveit_ros_move_group
+[  4%] [32mBuilding CXX object CMakeFiles/moveit_move_group_capabilities_base.dir/src/move_group_context.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/moveit_move_group_capabilities_base.dir/src/move_group_capability.cpp.o[0m
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/moveit_cpp/moveit_cpp.hpp:44[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/move_group_context.cpp:39[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/moveit_cpp/moveit_cpp.hpp:44[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/move_group_capability.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+[ 13%] [32m[1mLinking CXX shared library libmoveit_move_group_capabilities_base.so[0m
+[ 13%] Built target moveit_move_group_capabilities_base
+[ 17%] [32mBuilding CXX object CMakeFiles/move_group.dir/src/move_group.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/apply_planning_scene_service_capability.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/clear_octomap_service_capability.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/cartesian_path_service_capability.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/list_move_group_capabilities.dir/src/list_capabilities.cpp.o[0m
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/clear_octomap_service_capability.hpp:39[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/clear_octomap_service_capability.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/moveit_cpp/moveit_cpp.hpp:44[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/move_group.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+[ 39%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/get_group_urdf_capability.cpp.o[0m
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/cartesian_path_service_capability.hpp:39[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/cartesian_path_service_capability.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/apply_planning_scene_service_capability.hpp:39[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/apply_planning_scene_service_capability.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/list_capabilities.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+[ 43%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/execute_trajectory_action_capability.cpp.o[0m
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/get_group_urdf_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/get_group_urdf_capability.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/execute_trajectory_action_capability.hpp:43[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/execute_trajectory_action_capability.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+[ 47%] [32m[1mLinking CXX executable list_move_group_capabilities[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/move_action_capability.cpp.o[0m
+[ 52%] Built target list_move_group_capabilities
+[ 56%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/plan_service_capability.cpp.o[0m
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/move_action_capability.hpp:39[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/move_action_capability.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+[ 60%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/load_geometry_from_file_service_capability.cpp.o[0m
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/plan_service_capability.hpp:39[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/plan_service_capability.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+[ 65%] [32m[1mLinking CXX executable move_group[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/kinematics_service_capability.cpp.o[0m
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/load_geometry_from_file_service_capability.hpp:39[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/load_geometry_from_file_service_capability.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+[ 73%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/query_planners_service_capability.cpp.o[0m
+[ 73%] Built target move_group
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/kinematics_service_capability.hpp:39[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/kinematics_service_capability.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/query_planners_service_capability.hpp:39[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/query_planners_service_capability.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+[ 78%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/save_geometry_to_file_service_capability.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/get_planning_scene_service_capability.cpp.o[0m
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/save_geometry_to_file_service_capability.hpp:39[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/save_geometry_to_file_service_capability.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/get_planning_scene_service_capability.hpp:39[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/get_planning_scene_service_capability.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+[ 86%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/multi_state_validation_service_capability.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/state_validation_service_capability.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/tf_publisher_capability.cpp.o[0m
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/state_validation_service_capability.hpp:39[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/multi_state_validation_service_capability.hpp:3[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/multi_state_validation_service_capability.cpp:1[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/state_validation_service_capability.hpp:39[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/state_validation_service_capability.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/include/moveit/move_group/move_group_capability.hpp:40[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/tf_publisher_capability.hpp:39[m[K,
+                 from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/tf_publisher_capability.cpp:37[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/buffer.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning BUFFER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K BUFFER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_listener.h:40:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_LISTENER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   40 |   #[01;35m[Kwarning[m[K TRANSFORM_LISTENER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fabian/moveit2/moveit_ros/move_group/src/default_capabilities/tf_publisher_capability.cpp:41[m[K:
+[01m[K/opt/ros/rolling/include/tf2_ros/tf2_ros/transform_broadcaster.h:41:4:[m[K [01;35m[Kwarning: [m[K#warning TRANSFORM_BROADCASTER_HEADER_DEPRECATION [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   41 |   #[01;35m[Kwarning[m[K TRANSFORM_BROADCASTER_HEADER_DEPRECATION
+      |    [01;35m[K^~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libmoveit_move_group_default_capabilities.so[0m
+[100%] Built target moveit_move_group_default_capabilities
+-- Install configuration: "Release"
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/lib/moveit_ros_move_group/move_group
+-- Set non-toolchain portion of runtime path of "/home/fabian/moveit2/install/moveit_ros_move_group/lib/moveit_ros_move_group/move_group" to ""
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/lib/moveit_ros_move_group/list_move_group_capabilities
+-- Set non-toolchain portion of runtime path of "/home/fabian/moveit2/install/moveit_ros_move_group/lib/moveit_ros_move_group/list_move_group_capabilities" to ""
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so.2.14.0
+-- Set non-toolchain portion of runtime path of "/home/fabian/moveit2/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so.2.14.0" to ""
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so.2.14.0
+-- Set non-toolchain portion of runtime path of "/home/fabian/moveit2/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so.2.14.0" to ""
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/include/moveit_ros_move_group
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/include/moveit_ros_move_group/moveit
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/include/moveit_ros_move_group/moveit/move_group
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/include/moveit_ros_move_group/moveit/move_group/move_group_capability.h
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/include/moveit_ros_move_group/moveit/move_group/move_group_capability.hpp
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/include/moveit_ros_move_group/moveit/move_group/capability_names.hpp
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/include/moveit_ros_move_group/moveit/move_group/move_group_context.h
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/include/moveit_ros_move_group/moveit/move_group/move_group_context.hpp
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/include/moveit_ros_move_group/moveit/move_group/capability_names.h
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/lib/moveit_ros_move_group/load_map
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/lib/moveit_ros_move_group/save_map
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/default_capabilities_plugin_description.xml
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/library_path.sh
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/library_path.dsv
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/ament_index/resource_index/package_run_dependencies/moveit_ros_move_group
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/ament_index/resource_index/parent_prefix_path/moveit_ros_move_group
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/ament_prefix_path.sh
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/ament_prefix_path.dsv
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/path.sh
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/path.dsv
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.bash
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.sh
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.zsh
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.dsv
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/package.dsv
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/ament_index/resource_index/packages/moveit_ros_move_group
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/ament_index/resource_index/moveit_ros_move_group__pluginlib__plugin/moveit_ros_move_group
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/moveit_ros_move_groupTargetsExport.cmake
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/moveit_ros_move_groupTargetsExport-release.cmake
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/ConfigExtras.cmake
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig-version.cmake
+-- Installing: /home/fabian/moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/package.xml

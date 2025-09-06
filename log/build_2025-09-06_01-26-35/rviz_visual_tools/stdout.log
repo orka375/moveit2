@@ -1,0 +1,17 @@
+[  0%] Built target rviz_visual_tools_gui_autogen_timestamp_deps
+[  0%] Built target gtest_autogen_timestamp_deps
+[  0%] Built target gtest_main_autogen_timestamp_deps
+[  0%] Built target rviz_visual_tools_remote_control_autogen_timestamp_deps
+[  2%] Built target gtest_autogen
+[  4%] Built target gtest_main_autogen
+[  6%] Built target rviz_visual_tools_remote_control_autogen
+[  8%] Built target rviz_visual_tools_gui_autogen
+[ 16%] Built target gtest
+[ 25%] Built target gtest_main
+[ 33%] Built target rviz_visual_tools_remote_control
+[ 45%] Built target rviz_visual_tools_gui
+[ 45%] Built target rviz_visual_tools_autogen_timestamp_deps
+[ 47%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[ 47%] Built target rviz_visual_tools_autogen
+[ 52%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/rviz_visual_tools.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/tf_visual_tools.cpp.o[0m

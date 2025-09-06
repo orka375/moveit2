@@ -1,0 +1,18 @@
+[0mrviz_marker_tools: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(rviz_marker_tools PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      ${visualization_msgs_TARGETS}
+      rclcpp::rclcpp
+      tf2_eigen::tf2_eigen
+      urdfdom_headers::urdfdom_headers
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:31 (ament_target_dependencies)
+
+[0m

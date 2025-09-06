@@ -1,0 +1,28 @@
+[1.825s] Invoking command in '/home/fabian/moveit2/build/moveit_configs_utils': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fabian/moveit2/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabian/moveit2/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fabian/moveit2/build/moveit_configs_utils/build --no-deps symlink_data
+[2.551s] running develop
+[2.949s] running egg_info
+[2.949s] creating moveit_configs_utils.egg-info
+[2.988s] writing moveit_configs_utils.egg-info/PKG-INFO
+[2.989s] writing dependency_links to moveit_configs_utils.egg-info/dependency_links.txt
+[2.989s] writing requirements to moveit_configs_utils.egg-info/requires.txt
+[2.990s] writing top-level names to moveit_configs_utils.egg-info/top_level.txt
+[2.990s] writing manifest file 'moveit_configs_utils.egg-info/SOURCES.txt'
+[3.074s] reading manifest file 'moveit_configs_utils.egg-info/SOURCES.txt'
+[3.074s] writing manifest file 'moveit_configs_utils.egg-info/SOURCES.txt'
+[3.112s] running build_ext
+[3.113s] Creating /home/fabian/moveit2/install/moveit_configs_utils/lib/python3.12/site-packages/moveit-configs-utils.egg-link (link to .)
+[3.114s] 
+[3.114s] Installed /home/fabian/moveit2/build/moveit_configs_utils
+[3.114s] running symlink_data
+[3.115s] creating /home/fabian/moveit2/install/moveit_configs_utils/share/ament_index
+[3.115s] creating /home/fabian/moveit2/install/moveit_configs_utils/share/ament_index/resource_index
+[3.115s] creating /home/fabian/moveit2/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[3.116s] symbolically linking /home/fabian/moveit2/build/moveit_configs_utils/resource/moveit_configs_utils -> /home/fabian/moveit2/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[3.117s] symbolically linking /home/fabian/moveit2/build/moveit_configs_utils/package.xml -> /home/fabian/moveit2/install/moveit_configs_utils/share/moveit_configs_utils
+[3.117s] creating /home/fabian/moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.118s] symbolically linking /home/fabian/moveit2/build/moveit_configs_utils/default_configs/ompl_planning.yaml -> /home/fabian/moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.118s] symbolically linking /home/fabian/moveit2/build/moveit_configs_utils/default_configs/chomp_planning.yaml -> /home/fabian/moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.119s] symbolically linking /home/fabian/moveit2/build/moveit_configs_utils/default_configs/pilz_industrial_motion_planner_planning.yaml -> /home/fabian/moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.120s] symbolically linking /home/fabian/moveit2/build/moveit_configs_utils/default_configs/stomp_planning.yaml -> /home/fabian/moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.122s] symbolically linking /home/fabian/moveit2/build/moveit_configs_utils/default_configs/ompl_defaults.yaml -> /home/fabian/moveit2/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.186s] Invoked command in '/home/fabian/moveit2/build/moveit_configs_utils' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fabian/moveit2/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fabian/moveit2/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fabian/moveit2/build/moveit_configs_utils/build --no-deps symlink_data

@@ -1,0 +1,33 @@
+[0mmoveit_setup_assistant: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(moveit_setup_assistant PUBLIC
+      ament_index_cpp::ament_index_cpp
+      moveit_setup_framework::moveit_setup_framework
+      moveit_setup_srdf_plugins::moveit_setup_srdf_plugins
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:44 (ament_target_dependencies)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(moveit_setup_assistant_updater PUBLIC
+      ament_index_cpp::ament_index_cpp
+      moveit_setup_framework::moveit_setup_framework
+      moveit_setup_srdf_plugins::moveit_setup_srdf_plugins
+      pluginlib::pluginlib
+      rclcpp::rclcpp
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:54 (ament_target_dependencies)
+
+[0m
